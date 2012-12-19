@@ -235,3 +235,8 @@ Caused by: org.springframework.beans.NotWritablePropertyException: Invalid prope
 2012-12-19 17:05:15,837 [main] INFO  [org.golb.lovelearning.repository.JpaMappingTest] - ok: Task
 2012-12-19 17:05:15,948 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
 2012-12-19 17:05:16,328 [main] WARN  [org.golb.lovelearning.service.account.AccountService] - 操作员foo尝试删除超级管理员用户
+2012-12-19 17:23:04,195 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2012-12-19 17:23:04,525 [main] INFO  [org.golb.lovelearning.repository.JpaMappingTest] - ok: Task
+2012-12-19 17:23:04,535 [main] INFO  [org.golb.lovelearning.repository.JpaMappingTest] - ok: User
+2012-12-19 17:23:04,656 [main] WARN  [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2012-12-19 17:23:05,046 [main] WARN  [org.golb.lovelearning.service.account.AccountService] - 操作员foo尝试删除超级管理员用户
