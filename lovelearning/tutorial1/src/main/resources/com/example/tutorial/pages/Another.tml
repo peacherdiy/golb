@@ -1,0 +1,8 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:pagelink page="Start">pagelink:Start</t:pagelink><br/>
+	<p xml:space="preserve">
+		<a href="#" t:type="pagelink" page="Start">html Start</a><br/>
+		<a href="#" t:id="goToStart">class Start</a>
+	</p>
+	The value is: ${prop:value}
+</html>

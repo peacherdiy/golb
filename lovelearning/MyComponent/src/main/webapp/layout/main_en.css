@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+div label:first-child {
+	width: 200px; float: left; text-align: right; 
+} 
+
+div label:first-child:after { 
+	content: ":"; 
+}

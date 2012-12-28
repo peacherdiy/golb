@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<div>
+		<t:localebar />
+	</div>
+	<div>
+		<t:navimenu />
+	</div>
+	<div>
+		<t:body />
+	</div>
+	<div>
+		<t:copyright />
+	</div>
+</html>

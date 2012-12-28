@@ -1,0 +1,12 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:p="tapestry:parameter">
+	<!-- <t:if test="self" else="block:elseBlock">${pageDesc}</t:if> <t:block 
+		id="elseBlock"> <t:pageLink t:page="${pageName}">${pageDesc}</t:pageLink> 
+		</t:block> -->
+	<t:if test="self">
+		${pageDesc}
+		<p:else>
+			<t:pageLink t:page="${pageName}">${pageDesc}</t:pageLink>
+		</p:else>
+	</t:if>
+</t:container>

@@ -1,0 +1,60 @@
+<!-- 组件调用方法 t:type <div t:type="layout/main" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"> 
+	首页 </div> -->
+<!-- 组件调用方法 库命名空间 （Library Namespace ,库命名空间的URI为“tapestry-library:path”。 -->
+
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<l:main xmlns:l="tapestry-library:layout">
+		<div>
+			<img src="${asset:../img/register.gif}" />
+		</div>
+		<div>
+			${message:heading}
+		</div>
+		<t:form t:id="regForm" clientValidation="true">
+			<t:errors />
+			<div>
+				<t:label for="userName" />
+				<t:textfield t:id="userName" value="user.name"
+					validate="required,minlength=6,maxlength=20,regexp" />
+			</div>
+			<div>
+				<t:label for="password" />
+				<t:passwordfield t:id="password" value="user.password"
+					validate="required,minlength=6,maxlength=20" />
+			</div>
+			<div>
+				<t:label for="password2" />
+				<t:passwordfield t:id="password2" value="password2"
+					validate="required,minlength=6,maxlength=20" />
+			</div>
+			<div>
+				<t:label for="email" />
+				<t:textfield t:id="email" value="user.email" validate="required,email" />
+
+			</div>
+			<div>
+				<t:label for="age" />
+				<t:textfield t:id="age" value="user.age" validate="required,min=1,max=99" />
+			</div>
+			<div>
+				<t:label for="gender" />
+				<t:radiogroup t:id="gender" value="user.gender">
+					<t:radio t:id="male" value="male" />
+					<t:label for="male" />
+					<t:radio t:id="female" value="female" />
+					<t:label for="female" />
+				</t:radiogroup>
+			</div>
+			<div>
+				<t:label for="country" />
+				<t:select t:id="country" model="countries" value="user.country" />
+			</div>
+			<div>
+				<t:checkbox t:id="subscribe" value="user.subscribe" />
+				<t:label for="subscribe" />
+			</div>
+			<t:submit t:id="register" value="${message:register}" />
+			<t:submit t:id="registerAndLogin" value="${message:registerAndLogin}" />
+		</t:form>
+	</l:main>
+</html>

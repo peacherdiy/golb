@@ -1,0 +1,10 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:p="tapestry:parameter">
+	<t:if test="theUserExists">
+		欢迎${theUser}！ 
+		<t:actionlink t:id="logout">退出</t:actionlink>
+		<p:else> 
+			<t:pagelink page="Login">登录</t:pagelink>
+		</p:else>
+	</t:if> 
+</html>

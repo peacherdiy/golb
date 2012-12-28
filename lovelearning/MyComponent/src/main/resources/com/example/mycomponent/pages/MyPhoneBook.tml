@@ -1,0 +1,36 @@
+<!-- 组件调用方法 <t:layout.main -->
+<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<div>
+		<input type="text" id="name" />
+		<a t:type="any" t:id="checker" href="javascript:check('name','result');">查询</a>
+		<div id="result" />
+	</div>
+	<div>
+		<t:form t:id="loadForm">
+			<t:textfield t:id="name" t:mixins="autocomplete" />
+			<t:submit value="确定" />
+		</t:form>
+	</div>
+	<div>
+		<t:pageLink t:page="edit" target="_blank">搜索提示</t:pageLink>
+	</div>
+
+	<div>
+		<p>
+			集成spring
+		</p>
+		<t:form>
+			<div>
+				姓名：
+				<t:textfield t:value="entry.name" />
+			</div>
+			<div>
+				号码：
+				<t:textfield t:value="entry.number" />
+			</div>
+			<div>
+				<t:submit value="添加" />
+			</div>
+		</t:form>
+	</div>
+</t:layout.main>

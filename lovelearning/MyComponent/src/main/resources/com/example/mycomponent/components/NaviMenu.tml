@@ -1,0 +1,12 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:naviitem page="Start" />
+	|
+	<t:naviitem desc="联系我们" page="Contact" />
+	|
+	<t:naviitem desc="2012没有末日" page="HappyNewYear" />
+	|
+	<t:naviitem desc="ajax" page="MyPhoneBook" />
+	|
+	<t:naviitem desc="集成spring" page="IntegrationSpring" />
+	<!-- 下面是用  没有传递 desc参数时,调用默认值 用  注解 value 或者  添加默认的  方法defaultDesc -->
+</t:container>

@@ -1,0 +1,27 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:zone t:id="loadZone">
+		<t:form t:id="loadForm" zone="theZone">
+			<t:textfield t:id="name" t:mixins="autocomplete" />
+			<t:submit value="确定" />
+		</t:form>
+	</t:zone>
+
+	<t:zone t:id="theZone" />
+	<t:block t:id="viewBlock">
+		<div>${entry.name}</div>
+		<div>${entry.number}</div>
+		<div>
+			<t:actionlink t:id="edit" context="entry.name" zone="theZone">修改
+			</t:actionlink>
+		</div>
+	</t:block>
+
+	<t:block>
+		<t:form t:id="editForm" zone="theZone">
+			<t:hidden value="oldName" />
+			<t:textfield t:value="entry.name" />
+			<t:textfield t:value="entry.number" />
+			<t:submit value="保存" />
+		</t:form>
+	</t:block>
+</html>

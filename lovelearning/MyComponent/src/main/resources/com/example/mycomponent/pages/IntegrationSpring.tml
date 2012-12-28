@@ -1,0 +1,21 @@
+<!-- 组件调用方法 <t:layout.main -->
+<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<div>
+		<p>
+			集成spring
+		</p>
+		<t:form>
+			<div>
+				姓名：
+				<t:textfield t:value="entry.name" />
+			</div>
+			<div>
+				号码：
+				<t:textfield t:value="entry.number" />
+			</div>
+			<div>
+				<t:submit value="添加" />
+			</div>
+		</t:form>
+	</div>
+</t:layout.main>

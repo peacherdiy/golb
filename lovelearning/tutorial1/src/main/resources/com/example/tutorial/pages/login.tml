@@ -1,0 +1,13 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:form t:id="loginForm">
+		<div>
+			用户名：
+			<t:textfield value="userName" />
+		</div>
+		<div>
+			密**码：
+			<t:passwordField value="password" />
+		</div>
+		<t:submit value="登录" />
+	</t:form>
+</html>
