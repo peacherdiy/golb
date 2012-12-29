@@ -5,9 +5,16 @@
 		<param-name>tapestry.app-package</param-name>
 		<param-value>com.example.mycomponent</param-value>
 	</context-param>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring-service.xml</param-value>
+	</context-param>
 	<filter>
 		<filter-name>app</filter-name>
+		<!-- 
 		<filter-class>org.apache.tapestry5.TapestryFilter</filter-class>
+		 -->
+		<filter-class>org.apache.tapestry5.spring.TapestrySpringFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>app</filter-name>

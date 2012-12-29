@@ -6,20 +6,24 @@ import org.apache.tapestry5.Asset;
 import org.apache.tapestry5.RenderSupport;
 import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.Environmental;
-import org.apache.tapestry5.annotations.IncludeJavaScriptLibrary;
+import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.annotations.Path;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.annotations.SessionState;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.util.TextStreamResponse;
 
+import com.example.mycomponent.entity.Entry;
 import com.example.mycomponent.entity.PhoneBook;
 
-@IncludeJavaScriptLibrary("context:js/main.js")
+@Import(stylesheet="context:js/main.js")
 public class MyPhoneBook {
 	
 	@Property
 	private String name;
+	
+	@Property 
+	private Entry entry = new Entry();
 	
 	@SessionState
 	private PhoneBook phoneBook;
@@ -31,11 +35,11 @@ public class MyPhoneBook {
 	private Asset mainJs;
 
 	void setupRender() {
-//		renderSupport.addScript("check = function(source, result) {"
-//				+ " new Ajax.Request('MyPhoneBook.checker/' + $F(source), {"
-//				+ " method: 'get'," + " onSuccess: function(transport) {"
-//				+ " $(result).update(transport.responseText);" + " }" + " });"
-//				+ "}");
+		renderSupport.addScript("check = function(source, result) {"
+				+ " new Ajax.Request('MyPhoneBook.checker/' + $F(source), {"
+				+ " method: 'get'," + " onSuccess: function(transport) {"
+				+ " $(result).update(transport.responseText);" + " }" + " });"
+				+ "}");
 	}
 
 	StreamResponse onActionFromChecker(String name) {

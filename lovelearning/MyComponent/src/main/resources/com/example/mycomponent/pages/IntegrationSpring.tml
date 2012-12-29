@@ -2,7 +2,7 @@
 <t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
 	<div>
 		<p>
-			集成spring
+			集成 tapestry IOC
 		</p>
 		<t:form>
 			<div>

@@ -1,10 +1,13 @@
-<!-- 组件调用方法  <t:layout.main -->
-<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"> 
+<!-- 组件调用方法 <t:layout.main -->
+<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=84OWkpCbloGXmoqzgoLdkJye" style="text-decoration:none;">
+		<img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_12.png" />
+	</a>
 	<p>
 		图中实线表示方法无返回值或者返回布尔值true时的执行路径，虚线表示方法返回布尔值false时的执行路径。
-	利用返回布尔值false，可以跳过某些阶段，也可以再次访问某个阶段。
-	比如如果SetupRender阶段的方法返回false，那么将跳过中间很多阶段直接到达CleanupRender阶段，如果CleanupRender阶段的方法返回false，将重新回到SetupRender阶段。
-	这些方法可以不带参数，也可以带一个类型为MarkupWriter的参数。
+		利用返回布尔值false，可以跳过某些阶段，也可以再次访问某个阶段。
+		比如如果SetupRender阶段的方法返回false，那么将跳过中间很多阶段直接到达CleanupRender阶段，如果CleanupRender阶段的方法返回false，将重新回到SetupRender阶段。
+		这些方法可以不带参数，也可以带一个类型为MarkupWriter的参数。
 	</p>
 	<img src="${context:/layout/images/page-render.png}"></img>
 </t:layout.main>

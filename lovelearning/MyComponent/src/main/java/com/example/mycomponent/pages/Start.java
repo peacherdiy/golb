@@ -2,7 +2,7 @@ package com.example.mycomponent.pages;
 
 import org.apache.tapestry5.SelectModel;
 import org.apache.tapestry5.annotations.Component;
-import org.apache.tapestry5.annotations.IncludeStylesheet;
+import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.corelib.components.Form;
 import org.apache.tapestry5.corelib.components.PasswordField;
@@ -14,8 +14,7 @@ import com.example.mycomponent.entity.Country;
 import com.example.mycomponent.entity.Gender;
 import com.example.mycomponent.entity.User;
 
-@IncludeStylesheet("context:layout/main.css")
-//@JavascriptSupport.importStylesheet() 
+@Import(stylesheet="context:layout/main.css")
 public class Start {
 
 	@Property
