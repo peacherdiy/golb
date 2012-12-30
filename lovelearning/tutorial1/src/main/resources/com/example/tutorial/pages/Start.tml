@@ -1,8 +1,7 @@
 <html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
 	${prop:greeting}
 	<p>
-		<t:pagelink page="literal:Another" style="color: red;">Another
-		</t:pagelink>
+		<t:pagelink page="literal:Another" style="color: red;">Another</t:pagelink>
 	</p>
 
 

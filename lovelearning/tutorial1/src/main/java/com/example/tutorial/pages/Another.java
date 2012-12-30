@@ -1,9 +1,15 @@
 package com.example.tutorial.pages;
 
 import org.apache.tapestry5.annotations.Component;
-import org.apache.tapestry5.annotations.Persist;
+import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.corelib.components.PageLink;
 
+@Import(library={
+		"context:js/amq/jquery-1.4.2.min.js",
+		"context:js/amq/amq_jquery_adapter.js",
+		"context:js/amq/amq.js"
+		//"context:js/amq/chat.js",
+		})
 public class Another {
 
 	// @Persist

@@ -3,6 +3,7 @@ package com.example.tutorial.services;
 import java.io.IOException;
 
 import org.apache.tapestry5.SymbolConstants;
+import org.apache.tapestry5.ioc.Configuration;
 import org.apache.tapestry5.ioc.MappedConfiguration;
 import org.apache.tapestry5.ioc.OrderedConfiguration;
 import org.apache.tapestry5.ioc.ServiceBinder;
@@ -130,4 +131,8 @@ public class AppModule
     	configuration.add(IState.class, new ApplicationStateContribution("session", creator)); 
     }
     
+    public static void contributeIgnoredPathsFilter(Configuration<String> configuration)
+    {
+      configuration.add("/amq/*");
+    }
 }
