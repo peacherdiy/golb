@@ -11,6 +11,10 @@
 	|
 	<t:naviitem desc="集成spring IOC" page="ShowAll" />
 	|
+	<t:naviitem desc="集成hibernate" page="CreateAddress" />
+	|
+	<t:naviitem desc="即时通讯" page="Msg" />
+	|
 	<a href="/MyComponent/servicestatus" target="_blank">tapestry IOC servicestatus</a>
 	<!-- 下面是用  没有传递 desc参数时,调用默认值 用  注解 value 或者  添加默认的  方法defaultDesc -->
 </t:container>

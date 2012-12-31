@@ -1,0 +1,43 @@
+<!-- 组件调用方法 <t:layout.main -->
+<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+
+<script type="text/javascript">
+	
+		var amq = org.activemq.Amq;
+		  amq.init({ 
+		    uri: 'amq', 
+		    logging: true,
+		    timeout: 20,
+		    clientId : (new Date()).getTime().toString()
+		  });
+	
+		function listener(message) {
+                jQuery("#receive").append("<p>" + message.nodeType + "." + message.nodeValue + "</p>");
+        }; 
+        
+         function pollHandler(first) {
+                if (first) {
+                    amq.addListener("test", "topic://test", listener);
+                }
+         }; 
+         
+         
+          jQuery(function(){
+        	  
+                jQuery("#send").click(function(){
+                    amq.sendMessage("topic://test", "[\"Hello\", \"Hello\"]");
+                });
+                jQuery("#clear").click(function(){
+                    jQuery("#receive").html("");
+                });
+                //amq.addPollHandler(pollHandler);
+            }) 
+</script>
+
+	<div>
+        <button id="send">发送</button>
+        <button id="clear">清理</button>
+        <div id="receive"></div>
+  	</div>
+	
+</t:layout.main>

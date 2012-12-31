@@ -18,8 +18,7 @@ public class PhoneBookDaoImpl extends JdbcDaoSupport implements PhoneBookDao {
 				new RowCallbackHandler() {
 					public void processRow(ResultSet rs) throws SQLException {
 						do {
-							Entry entry = new Entry(rs.getString("name"), rs
-									.getString("number"));
+							Entry entry = new Entry(rs.getString("name"), rs.getString("number"));
 							entries.add(entry);
 						} while (rs.next());
 					}
