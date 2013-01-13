@@ -1,43 +1,44 @@
 <!-- 组件调用方法 <t:layout.main -->
 <t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
 
-<script type="text/javascript">
-	
-		var amq = org.activemq.Amq;
-		  amq.init({ 
-		    uri: 'amq', 
-		    logging: true,
-		    timeout: 20,
-		    clientId : (new Date()).getTime().toString()
-		  });
-	
-		function listener(message) {
-                jQuery("#receive").append("<p>" + message.nodeType + "." + message.nodeValue + "</p>");
-        }; 
-        
-         function pollHandler(first) {
-                if (first) {
-                    amq.addListener("test", "topic://test", listener);
-                }
-         }; 
-         
-         
-          jQuery(function(){
-        	  
-                jQuery("#send").click(function(){
-                    amq.sendMessage("topic://test", "[\"Hello\", \"Hello\"]");
-                });
-                jQuery("#clear").click(function(){
-                    jQuery("#receive").html("");
-                });
-                //amq.addPollHandler(pollHandler);
-            }) 
-</script>
+    <script type="text/javascript">
 
-	<div>
-        <button id="send">发送</button>
-        <button id="clear">清理</button>
-        <div id="receive"></div>
-  	</div>
+        // Note, normally you wouldn't just add an onload function in this
+        // manner. In fact, you typically want to fire this method on the
+        // document.onready event, however this type of functionality is verbose
+        // and best left to the domain of your favorite js library.
+        //
+        // For example, in jQuery the following onload would be replaced with:
+        // jQuery(function() {
+        //     org.activemq.Amq.init({ uri: 'amq' });
+        //     org.activemq.Chat.init();
+        // }
+        window.onload = function() {
+            org.activemq.Amq.init({ uri: 'amq', logging: true, timeout: 45, clientId:(new Date()).getTime().toString() });
+            org.activemq.Chat.init();
+        };
+    </script>
+
+<p>Welcome to the Ajax chat example</p>
+
+<div id="chatroom">
+    <div id="chat"></div>
+
+    <div id="members"></div>
+
+    <div id="input">
+        <div id="join" class="hidden">
+            Username:
+            <input id="username" type="text"/>
+            <button id="joinB">Join</button>
+        </div>
+        <div id="joined" class="hidden">
+            Chat:
+            <input id="phrase" type="text" />
+            <button id="sendB">Send</button>
+            <button id="leaveB">Leave</button>
+        </div>
+    </div>
+</div>
 	
 </t:layout.main>

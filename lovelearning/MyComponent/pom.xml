@@ -117,6 +117,12 @@
 			</exclusions>
 		</dependency>
 		
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-continuation</artifactId>
+			<version>7.0.0.RC0</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>MyComponent</finalName>

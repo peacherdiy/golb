@@ -5,11 +5,12 @@ import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.corelib.components.PageLink;
 
 @Import(library={
-		"context:js/amq/jquery-1.4.2.min.js",
-		"context:js/amq/amq_jquery_adapter.js",
-		"context:js/amq/amq.js"
-		//"context:js/amq/chat.js",
-		})
+		//"context:js/amq/jquery-1.4.2.min.js",
+		//"context:js/amq/amq_jquery_adapter.js",
+		"context:js/amq/amq_prototype_adapter.js",
+		"context:js/amq/amq.js",
+		"context:js/amq/chat.js",
+		},stylesheet={"context:css/chat.css"})
 public class Another {
 
 	// @Persist

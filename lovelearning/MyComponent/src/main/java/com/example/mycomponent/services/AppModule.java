@@ -125,6 +125,6 @@ public class AppModule
     
     public static void contributeIgnoredPathsFilter(Configuration<String> configuration)
     {
-      configuration.add("/amq/.*");
+      configuration.add("/amq/*");
     }
 }

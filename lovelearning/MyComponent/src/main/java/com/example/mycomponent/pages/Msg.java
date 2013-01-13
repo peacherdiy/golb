@@ -8,11 +8,14 @@ import org.apache.tapestry5.annotations.Import;
  *
  */
 @Import(library={
-		"context:js/amq/jquery-1.4.2.min.js",
-		"context:js/amq/amq_jquery_adapter.js",
-		"context:js/amq/amq.js"
-		//"context:js/amq/chat.js",
-		})
+		"context:js/amq/dojo/dojo.js",
+		"context:js/amq/dojo/amq_dojo_adapter.js",
+		"context:js/amq/dojo/amq.js",
+		"context:js/amq/dojo/chat.js"
+		},stylesheet={
+		"context:css/chat.css"
+		}
+)
 public class Msg {
 	
 }

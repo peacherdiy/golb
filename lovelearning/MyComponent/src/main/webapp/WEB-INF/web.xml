@@ -9,6 +9,17 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring-service.xml</param-value>
 	</context-param>
+	<!-- context config -->
+    <context-param>
+        <param-name>org.apache.activemq.brokerURL</param-name>
+        <param-value>vm://localhost</param-value>
+        <description>The URL of the Message Broker to connect to</description>
+    </context-param>
+    <context-param>
+        <param-name>org.apache.activemq.embeddedBroker</param-name>
+        <param-value>true</param-value>
+        <description>Whether we should include an embedded broker or not</description>
+    </context-param>
 	<filter>
 		<filter-name>app</filter-name>
 		<!-- <filter-class>org.apache.tapestry5.TapestryFilter</filter-class> -->
@@ -20,13 +31,57 @@
 	</filter-mapping>
 
 <!-- activemq AjaxServlet  -->
-	<servlet>
-		<servlet-name>AjaxServlet</servlet-name>
-		<servlet-class>org.apache.activemq.web.AjaxServlet</servlet-class>
-	</servlet>
+	   <!-- the subscription REST servlet -->
+    <servlet>
+        <servlet-name>AjaxServlet</servlet-name>
+        <servlet-class>org.apache.activemq.web.AjaxServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 
-	<servlet-mapping>
-		<servlet-name>AjaxServlet</servlet-name>
-		<url-pattern>/amq/*</url-pattern>
-	</servlet-mapping>
+    <servlet>
+        <servlet-name>MessageServlet</servlet-name>
+        <servlet-class>org.apache.activemq.web.MessageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <!--
+        Uncomment this parameter if you plan to use multiple consumers over REST
+        <init-param>
+                <param-name>destinationOptions</param-name>
+                <param-value>consumer.prefetchSize=1</param-value>
+        </init-param> 
+        -->
+    </servlet>
+
+    <!-- the queue browse servlet -->
+    <servlet>
+        <servlet-name>QueueBrowseServlet</servlet-name>
+        <servlet-class>org.apache.activemq.web.QueueBrowseServlet</servlet-class>
+    </servlet>
+
+    <!-- servlets for the portfolio demo -->
+    <servlet>
+        <servlet-name>PortfolioPublishServlet</servlet-name>
+        <servlet-class>org.apache.activemq.web.PortfolioPublishServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+	<!-- servlet mappings -->
+    <servlet-mapping>
+        <servlet-name>AjaxServlet</servlet-name>
+        <url-pattern>/amq/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>MessageServlet</servlet-name>
+        <url-pattern>/message/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>QueueBrowseServlet</servlet-name>
+        <url-pattern>/queueBrowse/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PortfolioPublishServlet</servlet-name>
+        <url-pattern>/portfolioPublish</url-pattern>
+    </servlet-mapping>
 </web-app>
