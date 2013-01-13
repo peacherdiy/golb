@@ -1,2 +1,3 @@
-\lovelearning\MyComponent\target\
-\lovelearning\tutorial1\target\
+/lovelearning/MyComponent/target/
+/lovelearning/tutorial1/target/
+*.class
