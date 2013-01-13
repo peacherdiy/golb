@@ -1,0 +1,4 @@
+<!-- 组件调用方法 <t:layout.main -->
+<t:layout.main xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:grid source="entries"></t:grid>
+</t:layout.main>

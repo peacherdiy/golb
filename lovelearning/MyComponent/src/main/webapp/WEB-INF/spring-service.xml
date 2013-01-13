@@ -5,6 +5,9 @@
 	<bean id="phoneBookDao" class="com.example.mycomponent.dao.PhoneBookDaoImpl">
 		<property name="jdbcTemplate" ref="jdbcTemplate" />
 	</bean>
+	<bean id="toolsDao" class="com.example.mycomponent.dao.ToolsDaoImpl">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
 	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
