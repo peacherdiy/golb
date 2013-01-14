@@ -127,4 +127,9 @@ public class AppModule
     {
       configuration.add("/amq/*");
     }
+    
+    public static void contributeHibernateEntityPackageManager(Configuration<String> configuration)
+    {
+      configuration.add("com.example.mycomponent.entity");
+    }
 }
