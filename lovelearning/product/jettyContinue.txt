@@ -1,0 +1,68 @@
+http://sillycat.iteye.com/blog/563598
+
+http://xheditor.com/demo
+
+swf object
+
+
+D:\document\private\wabacus3.3-src\samples
+
+
+https://github.com/NetEase/pomelo/wiki/pomelo%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97  
+
+Pomelo是基于node.js的高性能、分布式游戏服务器框架，通过一些简单的命令，就可以实现强大的功能，帮助你避免游戏开发中枯燥的重复劳动和底层逻辑。目前pomelo(>=0.2.3)已经完全支持Windows、Linux、Mac这三种不同系统。
+
+
+webx   图片程序猿  
+小工具	翻译	blog  步行千里需积跬
+
+
+http://shuqian.qq.com/home
+
+svg或者html5+hddl替代powerDesign
+
+code网络搜藏家（eclipse-plugin OR windows客户端）
+
+
+U盘PPT模式
+
+	插入： private--密码
+		public--选择
+
+
+	打开
+		控制器  上一个，下一个
+		远程画笔
+
+		PPt模板
+
+		更新--插入电脑
+		网络wifi共享
+eclipse bookmarks ，导出导出功能
+,  图中把一组 书签集合放在一下，用来 快速定位 代码行（图形界面 自己制作的模块可以定位到代码，ViewCode.proj）
+
+
+
+HotSpot虚拟机（客户端或服务器端）: 为什么有  客户端和 服务器端的  区分？
+
+
+faq  integration with jira
+
+我的知识库：
+我的单词库（from， explain:）
+
+http://wap.iciba.com/cword/Reputation 
+
+http://wap.iciba.com/cword/Badges 提了一个问题  获得了  Editor 徽章 10:24 2013/1/19
+
+
+dependencyManagement pom什么？  http://openwebx.org/docs/logging.html
+
+
+<scope>provided</scope>
+
+
+pipeline    http://openwebx.org/docs/intro.html
+
+
+mount   http://openwebx.org/docs/springext.html
