@@ -91,3 +91,14 @@ PS: This is my real email address, please keep it private, to protect
 me from spam.
 
 sping singleton
+
+
+http://stackoverflow.com/questions/14410380/eclipse-plugin-texteditormessages-cannot-be-resolved
+It's a steep learning curve, but there are lots of good howtos out there. Don't give up
+这是一个陡峭的学习曲线，但那里有很多良好的HOWTO文档。不要放弃。
+
+http://wap.iciba.com/cword/steep
+http://wap.iciba.com/cword/curve
+http://wap.iciba.com/fy/out%20there
+
+The authors also tried to maintain backwards source compatibility with Qt 4.0
