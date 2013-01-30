@@ -102,3 +102,6 @@ http://wap.iciba.com/cword/curve
 http://wap.iciba.com/fy/out%20there
 
 The authors also tried to maintain backwards source compatibility with Qt 4.0
+
+
+http://www.regexbook.net/book/jckc/index.htm  正则表达式学习

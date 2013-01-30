@@ -29892,148 +29892,148 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1910"/>
         <source>Spread the activities evenly over the week</source>
-        <translation type="unfinished"></translation>
+        <translation>过去一周均匀的排教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1915"/>
         <source>Export advanced statistics to disk</source>
-        <translation type="unfinished"></translation>
+        <translation>导出高级统计到磁盘</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1920"/>
         <source>Remove redundant constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>删除多余的约束</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="910"/>
         <source>Advanced lock/unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>高级 锁定/解锁</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1930"/>
         <source>Lock all activities of a specified day</source>
-        <translation type="unfinished"></translation>
+        <translation>在特殊一天锁定的教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1935"/>
         <source>Unlock all activities of a specified day</source>
-        <translation type="unfinished"></translation>
+        <translation>在特殊一天解锁的教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1940"/>
         <source>Lock all activities which end students day</source>
-        <translation type="unfinished"></translation>
+        <translation>在学期末锁定所有教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1945"/>
         <source>Unlock all activities which end students day</source>
-        <translation type="unfinished"></translation>
+        <translation>在学期末解锁所有教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1950"/>
         <source>Lock all activities of the current timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>锁定当前课表所有教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1955"/>
         <source>Unlock all activities of the current timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>解锁当前课表所有教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1960"/>
         <source>Max hours continuously with an activity tag for a students set</source>
-        <translation type="unfinished"></translation>
+        <translation>一组学生的教学班标签的最大不间断学时</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1965"/>
         <source>Max hours continuously with an activity tag for all students</source>
-        <translation type="unfinished"></translation>
+        <translation>所有学生的教学班标签的最大不间断学时</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1970"/>
         <source>Max hours continuously with an activity tag for a teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>一个老师的教学班标签的最大不间断学时</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1975"/>
         <source>Max hours continuously with an activity tag for all teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>所有老师的教学班标签的最大不间断学时</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1156"/>
         <source>Institution information</source>
-        <translation type="unfinished"></translation>
+        <translation>机构 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1163"/>
         <source>Days and hours</source>
-        <translation type="unfinished"></translation>
+        <translation>星期 和 学时</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="995"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1102"/>
         <source>Students</source>
-        <translation type="unfinished"></translation>
+        <translation>学生</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1996"/>
         <source>Divide html timetables with time-axis by days</source>
-        <translation type="unfinished"></translation>
+        <translation>随着时间的推移切分课表</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2001"/>
         <source>Help on settings</source>
-        <translation type="unfinished"></translation>
+        <translation>设置帮助</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2006"/>
         <source>An activity tag has a preferred room</source>
-        <translation type="unfinished"></translation>
+        <translation>一个教学班标签有首选的教室</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2011"/>
         <source>An activity tag has a set of preferred rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>一个教学班标签有一组首选的教室</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2016"/>
         <source>Select output directory</source>
-        <translation type="unfinished"></translation>
+        <translation>选择输出目录</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2021"/>
         <source>Max days per week for all teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>所有老师每周最大上课天数</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2032"/>
         <source>Print activities with same starting time in timetables</source>
-        <translation type="unfinished"></translation>
+        <translation>打印在课表中同样开始时间的教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2042"/>
         <source>Max days between a set of activities</source>
-        <translation type="unfinished"></translation>
+        <translation>一组教学班最大上课天数</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1629"/>
         <source>Two activities are consecutive</source>
-        <translation type="unfinished"></translation>
+        <translation>两个教学班是连续的</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1779"/>
         <source>Two activities are ordered</source>
-        <translation type="unfinished"></translation>
+        <translation>两个活动是有序的</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1925"/>
         <source>Two activities are grouped</source>
-        <translation type="unfinished"></translation>
+        <translation>两个活动是分组的</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2037"/>
         <source>Three activities are grouped</source>
-        <translation type="unfinished"></translation>
+        <translation>三个活动是分组的</translation>
     </message>
 </context>
 <context>
