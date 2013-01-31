@@ -28817,7 +28817,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1208"/>
         <source>Interface</source>
-        <translation>接口</translation>
+        <translation>界面</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1216"/>

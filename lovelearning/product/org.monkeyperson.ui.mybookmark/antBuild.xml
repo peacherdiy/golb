@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="plugin_export" name="build">
+	<target name="plugin_export">
+		<pde.exportPlugins destination="D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins" exportSource="false" exportType="directory" plugins="org.monkeyperson.ui.mybookmark" useJARFormat="true"/>
+	</target>
+</project>

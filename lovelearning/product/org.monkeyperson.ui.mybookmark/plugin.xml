@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="MyBookMarks Category"
+            id="org.monkeyperson.ui.mybookmark">
+      </category>
+      <view
+            name="MyBookMarks View"
+            icon="icons/sample.gif"
+            category="org.monkeyperson.ui.mybookmark"
+            class="org.monkeyperson.ui.mybookmark.views.MyBookMarksView"
+            id="org.monkeyperson.ui.mybookmark.views.MyBookMarksView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               ratio="0.5"
+               relative="org.eclipse.ui.views.TaskList"
+               relationship="right"
+               id="org.monkeyperson.ui.mybookmark.views.MyBookMarksView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+   
+   <!-- add custom bar -->
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            targetID="#CompilationUnitRulerContext"
+            id="org.eclipse.jdt.ui.CompilationUnitEditorPopupActions">
+         <action
+               label="MyAddBookmark.label"
+               helpContextId="org.eclipse.ui.bookmark_action_context"
+               tooltip="MyAddBookmark.tooltip"
+               class="org.monkeyperson.ui.mybookmark.Action1"
+               menubarPath="add"
+               id="org.eclipse.ui.texteditor.BookmarkRulerAction">
+         </action>
+       </viewerContribution>
+   </extension>
+
+</plugin>
