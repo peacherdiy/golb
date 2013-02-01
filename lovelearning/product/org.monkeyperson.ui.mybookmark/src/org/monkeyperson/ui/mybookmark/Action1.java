@@ -6,7 +6,7 @@ import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.text.source.IVerticalRulerInfo;
 import org.eclipse.ui.texteditor.AbstractRulerActionDelegate;
 import org.eclipse.ui.texteditor.ITextEditor;
-import org.eclipse.ui.texteditor.MarkerRulerAction;
+import org.monkeyperson.ui.mybookmark.popup.actions.MyMarkerRulerAction;
 import org.monkeyperson.ui.mybookmark.views.Messages;
 
 public class Action1 extends AbstractRulerActionDelegate {
@@ -16,7 +16,7 @@ public class Action1 extends AbstractRulerActionDelegate {
 	 */
 	@Override
 	protected IAction createAction(ITextEditor editor, IVerticalRulerInfo rulerInfo) {
-		return new MarkerRulerAction(Messages.getBundleForConstructedKeys(), "Editor.ManageBookmarks.", editor, rulerInfo, IMarker.BOOKMARK, true); //$NON-NLS-1$
+		return new MyMarkerRulerAction(Messages.getBundleForConstructedKeys(), "Editor.ManageBookmarks.", editor, rulerInfo, IMarker.BOOKMARK, true); //$NON-NLS-1$
 		//return new MarkerRulerAction(TextEditorMessages.getBundleForConstructedKeys(), "Editor.ManageBookmarks.", editor, rulerInfo, IMarker.BOOKMARK, true); //$NON-NLS-1$
 	}
 }

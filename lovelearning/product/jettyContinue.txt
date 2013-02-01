@@ -105,3 +105,10 @@ The authors also tried to maintain backwards source compatibility with Qt 4.0
 
 
 http://www.regexbook.net/book/jckc/index.htm  正则表达式学习
+
+
+翻译  emacs-lisp-intro
+
+使用 emacs
+
+Emacs入门指南

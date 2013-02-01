@@ -9,184 +9,184 @@
         <location filename="../src/interface/activitiesform.cpp" line="460"/>
         <location filename="../src/interface/activitiesform.cpp" line="565"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="348"/>
         <location filename="../src/interface/activitiesform.cpp" line="460"/>
         <location filename="../src/interface/activitiesform.cpp" line="565"/>
         <source>Invalid selected activity</source>
-        <translation type="unfinished"></translation>
+        <translation>非法的教学班选择</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="400"/>
         <source>Cannot modify this large activity, because it contains more than %1 activities.</source>
-        <translation type="unfinished"></translation>
+        <translation>不能修改这个大的教学班，因为他包含多余 %1 教学班.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="473"/>
         <source>Remove activity?</source>
-        <translation type="unfinished"></translation>
+        <translation>移除教学班？</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="476"/>
         <source>There will also be removed the related activities from the same larger split activity</source>
-        <translation type="unfinished"></translation>
+        <translation>将删除同样大小分隔教学班相关的教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="481"/>
         <source>FET confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 确认</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="482"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="482"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="308"/>
         <source>No: %1 / %2</source>
         <comment>No means number, %1 is the number of active activities, %2 is the number of total activities. Please leave spaces between fields, so that they are better visible</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="310"/>
         <source>Dur: %1 / %2</source>
         <comment>Dur means duration, %1 is the duration of active activities, %2 is the duration of total activities. Please leave spaces between fields, so that they are better visible</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="409"/>
         <source>different teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>不同的老师</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="411"/>
         <source>different subject</source>
-        <translation type="unfinished"></translation>
+        <translation>不用的主题</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="413"/>
         <source>different activity tags</source>
-        <translation type="unfinished"></translation>
+        <translation>不同的教学班标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="415"/>
         <source>different students</source>
-        <translation type="unfinished"></translation>
+        <translation>不同的学生</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="417"/>
         <source>different boolean variable &apos;must compute n total students&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>不同的布尔值&apos;必须计算 所有学生&apos;</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="419"/>
         <source>different number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>学生的不同数量</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="422"/>
         <source>The current split activity has subactivities which were individually modified. It is recommended to abort now and modify individual subactivities from the corresponding menu. Otherwise you will modify the fields for all the subactivities from this larger split activity.</source>
-        <translation type="unfinished"></translation>
+        <translation>当前分隔教学班有子教学班他们被独立的修改，建议立即中止和修改相应目录的独立子教学班，否则你修改字段对于所有的子教学班引起更多的分隔教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="426"/>
         <source>The fields which are different are: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>这个字段是不同的: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>FET warning</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 警告</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>终止</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>继续</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="526"/>
         <source>Useful instructions/tips:</source>
-        <translation type="unfinished"></translation>
+        <translation>有用的指导/提示:</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="529"/>
         <source>Above the (sub)activities list, we have 2 labels, containing 4 numbers. The first label contains text: No: a / b. The first number a is the number of active (sub)activities (we number each individual subactivity as 1), while the second number b is the number of total (sub)activities. The second label contains text: Dur: c / d. The third number c is the duration of active (sub)activities, in periods (or FET hours), while the fourth number d is the duration of total (sub)activities, in periods (or FET hours). So, No means number and Dur means duration.</source>
-        <translation type="unfinished"></translation>
+        <translation>上面的(子)教学班列表，我们有连个labels，包含4个数字,第一个label包含文本：No:a/b. 它是(子)教学班的数量，第二个label包含文本：Dur：c/d。第三个数字C是教学班的duration。第四个数字d所有的duration总和。没有意义的数字和Dur标示duration</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="535"/>
         <source>Example: No: 100 / 102, Dur: 114 / 117. They represent: 100 - the number of active (sub)activities, then 102 - the number of total (sub)activities, 114 - the duration of active activities (in periods or FET hours) and 117 - the duration of total activities (in periods or FET hours). In this example we have 2 inactive activities with their combined duration being 3 periods.</source>
-        <translation type="unfinished"></translation>
+        <translation>例如：No:100/102, Dur:1114/117.他们展现100个激活的（子）教学班，然而总共有102个（子）教学班，114个激活的学时duration，总共有117个duration。在这个例子中，我们有2个未激活的教学班加起来的时间是3个周期duration。</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="541"/>
         <source>Explanation of the short description of an activity: first comes the id. If the activity is inactive, an X follows. Then the duration. Then, if the activity is split, a slash and the total duration. Then teachers, subject, activity tag (if it is not void) and students. Then the number of students (if specified).</source>
-        <translation type="unfinished"></translation>
+        <translation>对于activity的一个简短的解释，首先是ID,如果activity是无效的，一个X如下，然后是持续时间，如果activity被分隔，一个斜线和总共duration。然后是老师，课程，activity标签，和学生。最后是学生的数量（如果指定）</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="545"/>
         <source>The activities which are inactive:</source>
         <comment>This is the help for activities which are inactive, after this field there come explanations for how inactive activities are displayed.</comment>
-        <translation type="unfinished"></translation>
+        <translation>教学班是非激活的:</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="548"/>
         <source>have an X mark after the id.</source>
         <comment>It refers to inactive activities, which have this mark after the id.</comment>
-        <translation type="unfinished"></translation>
+        <translation>有X标记在id之后.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="551"/>
         <source>if you use colors in interface (see Settings/Interface menu), they will appear with different background color.</source>
         <comment>It refers to inactive activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果你在界面用颜色（在设置/界面 目录），他将会显示不同的背景颜色</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="553"/>
         <source>To modify an activity, you can also double click it.</source>
-        <translation type="unfinished"></translation>
+        <translation>去编辑一个教学班，你也可以双击它</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="555"/>
         <source>Show related: if you select this, there will be listed activities for groups and subgroups contained also in the current set (if the current set is a year or a group) and also higher ranked year or group (if the current set is a group or a subgroup).</source>
-        <translation type="unfinished"></translation>
+        <translation>显示相关:如果你选择了这个，将列出组和子组包含在当前设置（如果当前设置是一年或者一个组）和较高的排名学年或者组（如果当前设置是一个组或者子组）</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="558"/>
         <source>FET Help</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 帮助</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="576"/>
         <source>Activity comments</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班 备注</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="578"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>确定</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="580"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="510"/>
         <source>Invalid activity</source>
-        <translation type="unfinished"></translation>
+        <translation>非法的教学班</translation>
     </message>
 </context>
 <context>
@@ -194,74 +194,74 @@
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="73"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>过滤</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="79"/>
         <source>Teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>老师</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="60"/>
         <source>Current activity</source>
-        <translation type="unfinished"></translation>
+        <translation>当前 教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="91"/>
         <source>Students</source>
         <comment>It refers to students sets, but I want to keep the string short</comment>
-        <translation type="unfinished"></translation>
+        <translation>学生</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="110"/>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>主题</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="139"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>添加</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="146"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>修改</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="153"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>移除</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="160"/>
         <source>Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>注释</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="167"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="174"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="120"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班 标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="14"/>
         <source>Activities dialog</source>
         <extracomment>This is the title of the activities dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>教学班 对话框</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform_template.ui" line="98"/>
         <source>Show related</source>
-        <translation type="unfinished"></translation>
+        <translation>显示相关</translation>
     </message>
 </context>
 <context>
@@ -270,32 +270,32 @@
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="291"/>
         <source>You have %1 activities which might end up in an unspecified room (not considering those which will certainly end up in an unspecified room). They are listed below:</source>
         <comment>Instructions for translators: take care, it is &apos;might&apos;, so it is only a possibility.</comment>
-        <translation type="unfinished"></translation>
+        <translation>你有 %1 教学班最终在未指定的房间（不考虑哪些肯定会在未指定的房间）。他们如下：</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="299"/>
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="320"/>
         <source>No: %1, Id: %2 (%3)</source>
         <comment>%1 is the current number, %2 is the activity id, %3 is the detailed activity description</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="305"/>
         <source>You do not have activities which might end up in an unspecified room (not considering those which will certainly end up in an unspecified room).</source>
         <comment>Instructions for translators: take care, it is &apos;might&apos;, so it is only a possibility.</comment>
-        <translation type="unfinished"></translation>
+        <translation>你没有教学班可能会在未指定的教室（不考虑那些肯定会在未指定的房间）。</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="313"/>
         <source>You have %1 activities which will certainly end up in an unspecified room. They are listed below:</source>
         <comment>Instructions for translators: take care, it is &apos;certainly&apos;.</comment>
-        <translation type="unfinished"></translation>
+        <translation>你有%1的教学班，肯定没有指定教室。如下：</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform.cpp" line="326"/>
         <source>You do not have activities which will certainly end up in an unspecified room.</source>
         <comment>Instructions for translators: take care, it is &apos;certainly&apos;.</comment>
-        <translation type="unfinished"></translation>
+        <translation>你没有教学班肯定未指定教室.</translation>
     </message>
 </context>
 <context>
@@ -304,12 +304,12 @@
         <location filename="../src/interface/activitiesroomsstatisticsform_template.ui" line="14"/>
         <source>Activities rooms statistics</source>
         <extracomment>Title of dialog. Refers to the statistics of each activity&apos;s possible rooms</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>教学班教室统计</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform_template.ui" line="44"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
@@ -317,127 +317,127 @@
     <message>
         <location filename="../src/engine/activity.cpp" line="395"/>
         <source>no teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>没有老师</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="405"/>
         <source>no students</source>
-        <translation type="unfinished"></translation>
+        <translation>没有学生</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="550"/>
         <source>yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="552"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="484"/>
         <source>Activity:</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班:</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="504"/>
         <source>No teachers for this activity</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班没有老师</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="509"/>
         <source>Teacher=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>老师=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="513"/>
         <source>Subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学科=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="517"/>
         <source>Activity tag=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班 标签=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="522"/>
         <source>No students sets for this activity</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班没有学生sets</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="527"/>
         <source>Students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学生=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="554"/>
         <source>Active=%1</source>
         <comment>Represents a boolean value, if activity is active or not, %1 is yes or no</comment>
-        <translation type="unfinished"></translation>
+        <translation>激活=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="488"/>
         <source>Id=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>id=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="491"/>
         <source>Activity group id=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班组id=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="496"/>
         <source>Duration=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学时=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="499"/>
         <source>Total duration=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>总学时=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="538"/>
         <location filename="../src/engine/activity.cpp" line="542"/>
         <source>Total number of students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学生总数=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="543"/>
         <source>specified</source>
         <comment>Specified means that the total number of students was specified separately for the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>特别指定的</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="560"/>
         <source>Comments=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>注释=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="572"/>
         <source>Time constraints directly related to this activity:</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班直接相关的时间约束</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="583"/>
         <source>Space constraints directly related to this activity:</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班直接相关的空间约束</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="94"/>
         <source>Invalid (inexistent) id for activity</source>
-        <translation type="unfinished"></translation>
+        <translation>ID为教学班无效（不存在）</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="102"/>
         <source>T:%1, S:%2, AT:%3, St:%4</source>
         <comment>This is an important translation for an activity&apos;s detailed description, please take care (it appears in many places in constraints).The abbreviations are: Teachers, Subject, Activity tags, Students. This variant includes activity tags</comment>
-        <translation type="unfinished"></translation>
+        <translation>老师:%1,学科:%2,教学班标签:%3,学生:%4</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="106"/>
         <source>T:%1, S:%2, St:%3</source>
         <comment>This is an important translation for an activity&apos;s detailed description, please take care (it appears in many places in constraints).The abbreviations are: Teachers, Subject, Students. There are no activity tags here</comment>
-        <translation type="unfinished"></translation>
+        <translation>老师:%1,学科:%2,学生:%3</translation>
     </message>
 </context>
 <context>
@@ -445,42 +445,42 @@
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="41"/>
         <source>Please read carefully the description below:</source>
-        <translation type="unfinished"></translation>
+        <translation>请仔细阅读下面的描述:</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="47"/>
         <source>This is a simple activity planning dialog. You need to add all teachers, subjects and the students structure before you can work with it. It is also recommended to add the necessary activity tags before using this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>这是一个简单的教学安排对话框。在工作之前必须添加所有的老师和学科和学生。也建议添加需要的教学标签.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="69"/>
         <source>If the buttons are hidden, when you will double-click or click the mouse on the tables or press Enter on a table cell, the command that will be done is the one which was selected when the buttons were not hidden.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果按钮是隐藏的，当你在表格上双击或者单击鼠标或者在一个表格列上按下回车，命令将完成选择的对象不被隐藏.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="57"/>
         <source>You can also double click the tables heading to do an action to the whole row/column.</source>
-        <translation type="unfinished"></translation>
+        <translation>你也可以双击表头去操作所有的行/列.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="51"/>
         <source>The main work will be done in the upper table with the students-subjects matrix. Select an &apos;action&apos; from the right side and activate a table cell to do that action (activate with the mouse double-click or click, depending on your platform, or by pressing Enter). The number of hours is summed in the heading, so you can always check if your planning fits your needs.</source>
-        <translation type="unfinished"></translation>
+        <translation>主要工作在上表（学生-学科矩阵）中完成。在右边选择一个&apos;action&apos;并且激活一个表格列（双击或者回车），在列头将显示小时数，因此你可以检查计划是否符合你的需求.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="59"/>
         <source>You can change size of the tables by using the splitter between the tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用表之间的分离器，您可以更改表的大小。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="61"/>
         <source>Pseudo activities are (sometimes) difficult to see in the tables, so you can view them quickly with the corresponding push button.</source>
-        <translation type="unfinished"></translation>
+        <translation>伪教学在表中很难看出，因此你可以看到他们用相应的push按钮。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="64"/>
         <source>You have also a facility to hide/show the buttons on the right. This is useful if you need more space for the tables. With the buttons shown (default), there is available a &apos;Hide buttons&apos; command. When you press it, all the other buttons will be hidden and you will have only one small button remaining. Press it and all the buttons will be shown again.</source>
-        <translation type="unfinished"></translation>
+        <translation>你也有一个的设施隐藏/显示按钮，在右侧。这是非常有用的，如果您需要更多空间的表。所示的按钮（默认），有一个“隐藏按钮”命令。当你按下它，所有其他的按钮将被隐藏，你将有只有一个小按钮，其余的。按下它，所有按钮将再次显示。</translation>
     </message>
 </context>
 <context>
@@ -488,22 +488,22 @@
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="14"/>
         <source>Instructions and confirmation of activity planning</source>
-        <translation type="unfinished"></translation>
+        <translation>教学计划的说明和确认</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="25"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>不要再显示</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="45"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>继续</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="52"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -511,151 +511,151 @@
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="215"/>
         <source>Activity Planning Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>教学计划对话框</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="239"/>
         <source>Action</source>
         <comment>It means the kind of action the user selects</comment>
-        <translation type="unfinished"></translation>
+        <translation>操作</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="241"/>
         <source>Activities</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="242"/>
         <source>Subactivities</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>子教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="243"/>
         <source>Add activity</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>添加教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="244"/>
         <source>Modify activity</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>编辑教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="245"/>
         <source>Delete activities</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>删除教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="255"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>选项</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="259"/>
         <source>Active</source>
         <comment>It refers to active activities. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>激活</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="260"/>
         <source>Inactive</source>
         <comment>It refers to inactive activities. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>待用</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="261"/>
         <source>All</source>
         <comment>It refers to all activities. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>所有</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="265"/>
         <source>Show years</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示年</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="267"/>
         <source>Show groups</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示组</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="269"/>
         <source>Show subgroups</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示子组</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="271"/>
         <source>Show teachers</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示老师</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="274"/>
         <source>Show tags</source>
         <comment>Please keep translation short. It refers to activity tags, but I want to keep it shorter, because there is not enough space.</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示标记</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="276"/>
         <source>Show duplicates</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示重复的</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="278"/>
         <source>Hide empty lines</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>隐藏空白行</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="280"/>
         <source>Hide full teachers</source>
         <comment>This field is for the moment not shown in FET, but we translate it for maybe future versions. It refers to teachers who have their number of hours fulfilled. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>隐藏所有老师</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="283"/>
         <source>Swap axes</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>交换轴</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="285"/>
         <source>Pseudo activities</source>
         <comment>Please keep translation short. It means activities without teachers and/or students sets</comment>
-        <translation type="unfinished"></translation>
+        <translation>伪教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="288"/>
         <source>Delete all</source>
         <comment>Refers to activities. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>删除所有</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="294"/>
         <location filename="../src/interface/activityplanningform.cpp" line="492"/>
         <source>Hide buttons</source>
         <comment>Please keep translation short. This is an option to hide some buttons in the planning activity dialog, so that the tables are more visible.</comment>
-        <translation type="unfinished"></translation>
+        <translation>隐藏按钮</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="301"/>
         <source>Close</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="476"/>
         <source>B</source>
         <comment>Abbreviation for &apos;Buttons&apos;. Please keep translation very short (probably only one letter). There is an option to hide the buttons in the planning activity dialog, so that the tables can have larger visible parts. This button (B) will remain there after the user hides the other buttons. The user then can press this button to show again all the buttons. We need this &apos;B&apos; button to be very small, so keep translation abbreviated to the initial only</comment>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="740"/>
@@ -667,59 +667,59 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1380"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1516"/>
         <source>Because you have individually modified the components, there will be removed an additional number of %1 activities (which are in the same larger split activities as the selected activities).</source>
-        <translation type="unfinished"></translation>
+        <translation>因为你已经单独修改了组件。他们将被删除%1的教学班（它们是同样大小分隔教学班和所选的教学班）.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="749"/>
         <location filename="../src/interface/activityplanningform.cpp" line="957"/>
         <source>There are activities affecting other students sets. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>有教学班影响其他学生集合，相关的教学班也别删除？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1105"/>
         <source>Cannot modify this large activity, because it contains more than %1 activities.</source>
-        <translation type="unfinished"></translation>
+        <translation>不能修改这个大的教学班，因为他包多余%1个教学班。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1387"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1523"/>
         <source>There are activities affecting other teachers. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>有教学班影响其他的老师，删除相关的教学班？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1960"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1963"/>
         <source>Delete all?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>删除所有？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="736"/>
         <location filename="../src/interface/activityplanningform.cpp" line="944"/>
         <source>Delete %1 activities of students set %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>删除%1个活动设置%2个学生？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="770"/>
         <location filename="../src/interface/activityplanningform.cpp" line="910"/>
         <source>Delete %1 activities of subject %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>删除%1个活动设置%2个学科？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1261"/>
         <source>Delete activities?</source>
-        <translation type="unfinished"></translation>
+        <translation>删除教学班？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1376"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1512"/>
         <source>Delete %1 activities of teacher %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>删除%2个老师的%1教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1963"/>
         <source>Are you absolutely sure you want to remove ALL activities and related constraints from your data?</source>
-        <translation type="unfinished"></translation>
+        <translation>你确实要删除所有的教学班和相关的约束从您的数据中？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="749"/>
@@ -732,7 +732,7 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1523"/>
         <source>Delete related?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>删除相关的？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="744"/>
@@ -743,117 +743,117 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1519"/>
         <source>Delete multiple?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>删除多余的？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="784"/>
         <location filename="../src/interface/activityplanningform.cpp" line="924"/>
         <source>There are activities affecting other subjects. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>有教学班影响其他学科。要删除相关的？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1104"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1222"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1246"/>
         <source>Delete %1 activities from selected cell?</source>
-        <translation type="unfinished"></translation>
+        <translation>从选择的表格删除%1教学班？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1224"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1250"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学科=%1</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1226"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1248"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>学生=%1</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1266"/>
         <source>This cell contains activities that relate to other students. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>这个单元格包含相关学生的教学班，删除相关的？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1272"/>
         <source>This cell contains activities that relate to other subjects. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>这个单元格包含相关学科的教学班，删除相关的？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1411"/>
         <source>FET question</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 问题</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1411"/>
         <source>Please enter the target number of hours:</source>
         <comment>This field is for the moment inactive in FET, but we translate it for possible future use</comment>
-        <translation type="unfinished"></translation>
+        <translation>请输入小时数：</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1757"/>
         <source>Target</source>
         <comment>Please keep translation short. This field is for the moment inactive in FET, we keep it for possible future use</comment>
-        <translation type="unfinished"></translation>
+        <translation>目标</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1758"/>
         <source>Subjects</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>学科</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1759"/>
         <source>Students</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>学生</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1960"/>
         <source>Are you sure you want to remove ALL the %1 activities and related constraints?</source>
         <comment>%1 is the number of total activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>你想要删除所有 %1个教学班和相关的约束？</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1995"/>
         <source>There are no activities without teachers and without students.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有教学班即无老师也无学生。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1997"/>
         <source>Activities without teachers and without students:</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班即无老师也无学生。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2000"/>
         <source>There are no activities without teachers.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有教学班没有老师。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2002"/>
         <source>Activities without teachers:</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班没有老师：</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2005"/>
         <source>There are no activities without students.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有教学班没有学生。</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2007"/>
         <source>Activities without students:</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班没有学生：</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2009"/>
         <source>Information about pseudo activities</source>
         <comment>Pseudo activities means activities without teachers and/or students sets</comment>
-        <translation type="unfinished"></translation>
+        <translation>伪教学班的信息</translation>
     </message>
 </context>
 <context>
@@ -861,23 +861,23 @@
     <message>
         <location filename="../src/engine/activitytag.cpp" line="40"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班标签</translation>
     </message>
     <message>
         <location filename="../src/engine/activitytag.cpp" line="42"/>
         <source>Name=%1</source>
         <comment>The name of the activity tag</comment>
-        <translation type="unfinished"></translation>
+        <translation>名称=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activitytag.cpp" line="53"/>
         <source>Time constraints directly related to this activity tag:</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班标签直接相关的时间约束:</translation>
     </message>
     <message>
         <location filename="../src/engine/activitytag.cpp" line="64"/>
         <source>Space constraints directly related to this activity tag:</source>
-        <translation type="unfinished"></translation>
+        <translation>这个教学班标签直接相关的空间约束:</translation>
     </message>
 </context>
 <context>
@@ -885,23 +885,23 @@
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="93"/>
         <source>Please enter activity tag&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>请输入一个教学班标签名称</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="93"/>
         <source>Add activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>添加一个教学班标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="99"/>
         <location filename="../src/interface/activitytagsform.cpp" line="176"/>
         <source>Activity tag insertion dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班标签插入对话框</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="100"/>
         <source>Could not insert item. Must be a duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>不能插入的项，一定重复了</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="110"/>
@@ -914,12 +914,12 @@
         <location filename="../src/interface/activitytagsform.cpp" line="229"/>
         <location filename="../src/interface/activitytagsform.cpp" line="235"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET信息</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="110"/>
         <source>Incorrect name</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的名称</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="120"/>
@@ -929,62 +929,62 @@
         <location filename="../src/interface/activitytagsform.cpp" line="217"/>
         <location filename="../src/interface/activitytagsform.cpp" line="229"/>
         <source>Invalid selected activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>选择的教学班标签非法</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="131"/>
         <source>FET</source>
-        <translation type="unfinished"></translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="132"/>
         <source>Are you sure you want to delete this activity tag?</source>
-        <translation type="unfinished"></translation>
+        <translation>你确定要删除这个教学班标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="133"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="133"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="170"/>
         <source>Please enter new activity tag&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>请输入一个新的教学班标签名称</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="170"/>
         <source>Rename activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>重命名教学班标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="177"/>
         <source>Could not modify item. New name must be a duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>不能修改的项，新名称一定重复了</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="223"/>
         <source>Activated a number of %1 activities</source>
-        <translation type="unfinished"></translation>
+        <translation>激活的教学班数量%1</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="235"/>
         <source>De-activated a number of %1 activities</source>
-        <translation type="unfinished"></translation>
+        <translation>取消激活了%1个教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="240"/>
         <source>FET help on activity tags</source>
-        <translation type="unfinished"></translation>
+        <translation>FET帮助教学班标签</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="241"/>
         <source>Activity tag is a field which can be used or not, depending on your wish (optional field). It is designed to help you with some constraints. Each activity has a possible empty list of activity tags (if you don&apos;t use activity tags, the list will be empty)</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班是一个可有可无的字段，取决于你的需要。(它被设计帮助你一些约束。每个教学班可能有一个空的教学班标签列表)</translation>
     </message>
 </context>
 <context>
@@ -27705,7 +27705,7 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="600"/>
         <source>Use with caution.</source>
-        <translation type="unfinished"></translation>
+        <translation>请谨慎使用。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="730"/>
@@ -27715,7 +27715,7 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3526"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;是</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3526"/>
@@ -27956,12 +27956,12 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1369"/>
         <source>Your current data file remained untouched (no locking constraints were added), so you can save it also, or generate different timetables.</source>
-        <translation type="unfinished"></translation>
+        <translation>您当前的数据文件保持不变（没有锁定限制），所以可以将其保存，或产生不同的时间表。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1604"/>
         <source>Seed of random number generator: please read the help in the dialog of this option</source>
-        <translation type="unfinished"></translation>
+        <translation>随机数生成器的种子：请仔细阅读此选项对话框中的帮助</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1607"/>
@@ -27991,7 +27991,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1621"/>
         <source>This will enable the menu for 4 constraints: teacher(s) or students (set) activity tag max hours daily. These 4 constraints are good, but not perfect and may bring slow down of generation or impossible timetables if used unproperly. Select only if you know what you&apos;re doing.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个允许4个约束，老师和学生，教学班标签，每天最大学时，这些约束很好，但是会影响课表的生成性能如果不合适的使用，选择“只有当你知道你在做什么”。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1624"/>
@@ -28001,13 +28001,13 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1626"/>
         <source>This will enable the menu for 2 constraints: students (set) max gaps per day. These 2 constraints are good, but not perfect and may bring slow down of generation or impossible timetables if used unproperly. Select only if you know what you&apos;re doing.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个允许2个约束，学生每天最大间隙，这些约束很好，但是会影响课表的生成性能如果不合适的使用，选择“只有当你知道你在做什么”。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1630"/>
         <source>Warn if using not perfect constraints:</source>
         <comment>this is a warning if user uses not perfect constraints</comment>
-        <translation type="unfinished"></translation>
+        <translation>警告，如果使用不完美的约束：</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1636"/>
@@ -28017,13 +28017,13 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1638"/>
         <source>This will enable you to modify the students min hours daily constraints, to allow empty days. It is IMPERATIVE (for performance reasons) to allow empty days for students min hours daily only if your institution allows empty days for students and if a solution with empty days is possible. Select only if you know what you&apos;re doing.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个允许修改每天最小课时，去允许不上课天，这个是必要的，如果你的机构允许，选择“只有当你知道你在做什么”。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1642"/>
         <source>Warn if using students min hours daily with empty days:</source>
         <comment>this is a warning if user has constraints min hours daily for students with allowed empty days</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果学生的每天最小学时一个空闲天发出警告：</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1644"/>
@@ -28038,7 +28038,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1658"/>
         <source>You will find in the statistics only active activities count. The inactive ones are not counted.</source>
-        <translation type="unfinished"></translation>
+        <translation>你会发现在只有激活的教学班总数的统计。不活跃的不计算在内。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1662"/>
@@ -28049,7 +28049,9 @@ Each subgroup should have a number of hours per week close to the average of all
 Please read FAQ for detailed description on how divisions work. The key is that the subgroups are independent and represent the smallest unit of students. Each subgroup receives the activities of the parent year and parent group and of itself.
 
 Having a subgroup with too little working hours per week means that you inputted activities in a wrong manner, and also that some constraints like no gaps, early or min hours daily for this subgroup are interpreted in a wrong manner (if subgroup has only 2 activities, then these must be placed in the first hours, which is too hard and wrong).</source>
-        <translation type="unfinished"></translation>
+        <translation>对的统计学生可能是最难以理解的。如果您使用的是以年区划，可能是最相关的统计数据是每个子组的（所以你可以勾选只检查子组“复选框）。您可能会看到更多的学时对于年或组，但这些
+是不显着的，请忽略他们，因为每年或组将统计学时，也包含的所有子组的教学计划。每个学生设置的每个子组每周应该有大量的学时去接近的所有分组的平均数量和接近普通数量的工作时间
+。如果分组有低得多的价值，也许你使用不当年/组/子组对于教学班。请阅读FAQ，分隔工作是如何工作的。最关键的是，子组是独立的，代表学生的最小单位。每个子群接收父年度与父组以及本身的教学活动。有一个子组，每周工作时间太少，意味着你在一个错误的方式输入教学活动，也希望一些制约因素，如无间隙，早一点或每天最小学时为这个子组是在一个错误的方式解释（如果子组只有2活动，那么这些必须被放置在第一个小时，这是太硬，是错误的）。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1691"/>
@@ -28086,7 +28088,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3118"/>
         <source>Your current data has no name. Please save it as a file with a certain name before proceeding.</source>
-        <translation type="unfinished"></translation>
+        <translation>你当前数据没有名称。请保存它为一个有特定名称的文件在处理它之前。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3308"/>
@@ -28101,12 +28103,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3344"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>僧伽罗语</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3345"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>斯洛伐克</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3346"/>
@@ -28116,7 +28118,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3347"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>塞尔维亚</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3348"/>
@@ -28126,28 +28128,28 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3349"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>越南的</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3350"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>乌兹别克</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3452"/>
         <source>The geometry and any other saved settings of all the windows and dialogs will be reset to default</source>
-        <translation type="unfinished"></translation>
+        <translation>几何形状和任何其他的所有窗口和对话框，保存的设置将被重置为默认值</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3471"/>
         <source>The list of recently used files will be cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>最近使用的文件列表将被清除</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3510"/>
         <source>Warn if using constraints students min hours daily with empty days will be %1</source>
         <comment>%1 is true or false. This is a warning if user uses a nonstandard constraint students min hours daily with allowed empty days</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果学生的每天最小学时是一个空闲天发出警告将是 %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3515"/>
@@ -28170,7 +28172,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3928"/>
         <source>This kind of constraint is good, but only in the right case. Adding such constraints in the wrong circumstance may make your timetable solve too slow or even impossible.</source>
-        <translation type="unfinished"></translation>
+        <translation>这种约束是好的，但只有在正确的情况下。添加这样的限制在错误的情况下，可以让你的时间表解决过于缓慢，甚至是不可能的。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3931"/>
@@ -28185,7 +28187,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="654"/>
         <source>Searching for file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索文件%1。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="656"/>
@@ -28195,7 +28197,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="669"/>
         <source>The file %1 from the FET homepage, indicating the current FET version, is incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>％1的文件从的FET网页，表示目前的FET版本，是不正确的.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="671"/>
@@ -28253,7 +28255,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3322"/>
         <location filename="../src/interface/fetmainform.cpp" line="3468"/>
         <source>US English</source>
-        <translation type="unfinished"></translation>
+        <translation>美国英语</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3369"/>
@@ -28268,7 +28270,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3449"/>
         <source>That means:</source>
-        <translation type="unfinished"></translation>
+        <translation>这意味着：</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3455"/>
@@ -28281,13 +28283,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3519"/>
         <location filename="../src/interface/fetmainform.cpp" line="3521"/>
         <source>true</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3465"/>
         <source>Use colors in FET graphical user interface will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>使用在FET的图形用户界面的颜色将是1％</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3468"/>
@@ -28299,7 +28301,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3504"/>
         <source>Warn if using not perfect constraints will be %1</source>
         <comment>%1 is true or false. This is a warning if user uses not perfect constraints</comment>
-        <translation type="unfinished"></translation>
+        <translation>警告，如果使用不完美的约束将是%1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3521"/>
@@ -28311,7 +28313,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3847"/>
         <location filename="../src/interface/fetmainform.cpp" line="3877"/>
         <source>These kinds of constraints are good, but not perfectly optimized. Adding such constraints may make your timetable solve too slow or even impossible.</source>
-        <translation type="unfinished"></translation>
+        <translation>这些类型的约束是好的，但不完全优化。这样的限制可能使你的时间表解决速度太慢，甚至是不可能的。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3850"/>
@@ -28370,7 +28372,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1170"/>
         <source>You have not yet generated a timetable - please generate firstly</source>
-        <translation type="unfinished"></translation>
+        <translation>您还没有产生一个时间表 - 请首先产生</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1180"/>
@@ -28423,7 +28425,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3455"/>
         <source>Show shortcut buttons in main window will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>显示在主窗口中的快捷按钮，将%1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3458"/>
@@ -28441,7 +28443,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3474"/>
         <source>Working directory will be %1</source>
         <comment>%1 is the directory</comment>
-        <translation type="unfinished"></translation>
+        <translation>工作目录将是%1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3477"/>
@@ -28483,7 +28485,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3495"/>
         <source>Print activities with same starting time will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>打印活动具有相同的开始时间为%1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3498"/>
@@ -28506,7 +28508,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3688"/>
         <source>You have more than 6 days per week, so probably you won&apos;t need this feature. Do you still want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>你必须每周工作6天以上，所以可能你会需要这个功能。你仍然要继续吗？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3691"/>
@@ -28523,7 +28525,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3709"/>
         <source>You have less than 5 days per week, so probably you won&apos;t need this feature. Do you still want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>你必须每周不少于5天，所以也许你会需要这个功能。你仍然要继续吗？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="962"/>
@@ -28546,27 +28548,27 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="690"/>
         <source>You may need to hit Refresh in your web browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>您可能需要在你的网页浏览器，点击刷新。</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="690"/>
         <source>Would you like to open the FET homepage now?</source>
-        <translation type="unfinished"></translation>
+        <translation>你想现在打开FET网页？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="731"/>
         <source>Your data file has been modified - do you want to save it?</source>
-        <translation type="unfinished"></translation>
+        <translation>你的数据文件已经修改了，保存么？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="866"/>
         <source>Your current data file has been modified. Are you sure you want to reset to new empty data?</source>
-        <translation type="unfinished"></translation>
+        <translation>您当前的数据文件已经被修改。你确定要重置为新的空数据？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="938"/>
         <source>Your current data file has been modified. Are you sure you want to open another data file?</source>
-        <translation type="unfinished"></translation>
+        <translation>您当前的数据文件已经被修改。你确定你要打开另一个数据文件吗？</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="959"/>
@@ -28626,7 +28628,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3327"/>
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3328"/>
@@ -28676,17 +28678,17 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3337"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>罗马尼亚</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3338"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>土耳其</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3341"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>乌克兰</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3342"/>
@@ -28696,7 +28698,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3339"/>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>俄国</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3340"/>
@@ -28711,17 +28713,17 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3806"/>
         <source>You don&apos;t have write permissions in this directory</source>
-        <translation type="unfinished"></translation>
+        <translation>您没有在此目录的写权限，</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1684"/>
         <source>Students&apos; statistics form contains a check box named &apos;%1&apos;. This has effect only if you have overlapping groups/years, and means that FET will show the complete tree structure, even if that means that some subgroups/groups will appear twice or more in the table, with the same information. For instance, if you have year Y1, groups G1 and G2, subgroups S1, S2, S3, with structure: Y1 (G1 (S1, S2), G2 (S1, S3)), S1 will appear twice in the table</source>
-        <translation type="unfinished"></translation>
+        <translation>学生的统计表格包含一个复选框，命名为“％1”。这有效果，如果你有重叠的组/年，意味着FET将显示完整的树状结构，即使这意味着，一些分组/小组将在表中出现两次或两次以上，具有相同的信息。比如，如果你有年Y1，组G1和G2，子组S1，S2，S3中，与结构：Y1（G1（S1，S2），G2（S1，S3）），S1将出现两次在表中</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1688"/>
         <source>Show duplicates</source>
-        <translation type="unfinished"></translation>
+        <translation>显示重复</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3462"/>
@@ -28757,7 +28759,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1590"/>
         <source>Probably some settings which are more difficult to understand are these ones:</source>
-        <translation type="unfinished"></translation>
+        <translation>也许这是很难理解的一些设置的：</translation>
     </message>
 </context>
 <context>

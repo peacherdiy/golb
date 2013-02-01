@@ -62,7 +62,7 @@ public class Messages extends NLS {
 	public static String AbstractDecoratedTextEditor_printPageNumber;
 
 
-//	static {
-//		NLS.initializeMessages(BUNDLE_NAME, Messages.class);
-//	}
+	static {
+		NLS.initializeMessages(BUNDLE_NAME, Messages.class);
+	}
 }
