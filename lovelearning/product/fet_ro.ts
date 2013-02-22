@@ -1642,32 +1642,32 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="43"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="43"/>
         <source>Incorrect name</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的名称</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="49"/>
         <source>Room insertion dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>房间插入对话框</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="50"/>
         <source>Could not insert item. Must be a duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>无法插入项目。必须是重复的</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="54"/>
         <source>Building insertion dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>楼栋插入对话框</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="55"/>
         <source>Building added</source>
-        <translation type="unfinished"></translation>
+        <translation>增加的楼栋</translation>
     </message>
 </context>
 <context>
@@ -1675,22 +1675,22 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名称</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="14"/>
         <source>Add building</source>
-        <translation type="unfinished"></translation>
+        <translation>添加楼栋</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>添加</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="49"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
@@ -1701,27 +1701,27 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="143"/>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="146"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="111"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的权重（百分比）</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="116"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的权重（百分比）-必须是100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="140"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation>约束添加：</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="147"/>
         <source>Constraint NOT added - please report error</source>
-        <translation type="unfinished"></translation>
+        <translation>约束不能添加-请报告一个错误</translation>
     </message>
 </context>
 <context>
@@ -1729,48 +1729,48 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="136"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation>权重百分比（需要：100%）</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="157"/>
         <source>Add constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>添加约束</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="164"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="54"/>
         <source>Teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>老师</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="14"/>
         <source>Add activities end students day</source>
         <extracomment>This is the title of the dialog to add a new constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>教学班结束学生日</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="84"/>
         <source>Students set</source>
-        <translation type="unfinished"></translation>
+        <translation>学生集合</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="67"/>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>学科</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="97"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班 标签</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform_template.ui" line="26"/>
         <source>Instructions: you can choose a set of activities with a certain teacher (or blank for all teachers), students set, subject and activity tag.</source>
-        <translation type="unfinished"></translation>
+        <translation>说明：您可以选择一组的活动，有特定的教师（或空白，为所有教师），学生组，主题和教学班标签。</translation>
     </message>
 </context>
 <context>
@@ -1782,32 +1782,32 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="294"/>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="297"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="256"/>
         <source>Invalid weight (percentage). It has to be 100</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的权重（百分比）.已经是100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="272"/>
         <source>You specified max simultaneous activities to be 0. This is not perfect from efficiency point of view, because you can use instead constraint activity(ies) preferred time slots, and help FET to find a timetable easier and faster, with an equivalent result. Please correct.</source>
-        <translation type="unfinished"></translation>
+        <translation>您指定最多同时进行的活动为0.从效率的角度来看，这是不完美的，因为你可以使用，而不是约束活动（IES）的首选时间段，并且帮助FET找到一个时间表，更容易和更快的速度，等效的结果。请更正。</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="280"/>
         <source>Empty list of activities</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班的空列表</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="295"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation>添加的约束：</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="298"/>
         <source>Constraint NOT added - please report error</source>
-        <translation type="unfinished"></translation>
+        <translation>约束不能添加-请报告一个错误</translation>
     </message>
 </context>
 <context>
@@ -1816,90 +1816,90 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="14"/>
         <source>Add activities max simultaneous in selected time slots</source>
         <extracomment>This is the title of the dialog to add a new constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>添加教学班最大同时在选定的时间段</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="24"/>
         <source>Activities</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="30"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>过滤器</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="36"/>
         <source>Teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>老师</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="46"/>
         <source>Students set</source>
-        <translation type="unfinished"></translation>
+        <translation>学生集合</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="56"/>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>学科</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="66"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>教学班 标签</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="98"/>
         <source>All</source>
         <comment>Text on a button. It refers to adding all activities from the list above this button into the current constraint</comment>
-        <translation type="unfinished"></translation>
+        <translation>所有</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="112"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>清除</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="124"/>
         <source>Time slots</source>
-        <translation type="unfinished"></translation>
+        <translation>时间间隙</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="137"/>
         <source>X=selected, empty=not selected</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>X=选择，empty=没有选择</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="144"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>选择所有</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="151"/>
         <source>Unselect all</source>
-        <translation type="unfinished"></translation>
+        <translation>非全选</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="173"/>
         <source>Max simultaneous</source>
         <comment>It refers to the max number of simultaneous activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>最大同步</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="199"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation>权重百分比（必要的：100％）</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="220"/>
         <source>Add constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>添加 约束</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="227"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
@@ -1911,32 +1911,32 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="211"/>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="214"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>FET 信息</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="181"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的权重（百分比）</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="187"/>
         <source>Empty list of not overlapping activities</source>
-        <translation type="unfinished"></translation>
+        <translation>空不重叠的教学班列表</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="192"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished"></translation>
+        <translation>只有一个选择的教学班</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="208"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation>添加约束：</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="215"/>
         <source>Constraint NOT added - please report error</source>
-        <translation type="unfinished"></translation>
+        <translation>约束不能添加-请报告一个错误</translation>
     </message>
 </context>
 <context>
