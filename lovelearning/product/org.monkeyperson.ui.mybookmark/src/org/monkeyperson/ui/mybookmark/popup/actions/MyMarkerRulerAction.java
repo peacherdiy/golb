@@ -215,10 +215,12 @@ public class MyMarkerRulerAction extends ResourceAction implements IUpdate{
 	 * @see Action#run()
 	 */
 	public void run() {
-		if (fMarkers.isEmpty())
-			addMarker();
-		else
-			removeMarkers(fMarkers);
+//		if (fMarkers.isEmpty())
+//			addMarker();
+//		else
+//			removeMarkers(fMarkers);
+		
+		addMarker();
 	}
 
 	/**
@@ -353,7 +355,12 @@ public class MyMarkerRulerAction extends ResourceAction implements IUpdate{
 			if (!askForLabel(attributes))
 				return;
 		}
-		execute(new CreateMarkersOperation(fMarkerType, attributes, resource, getOperationName()));
+		
+		/**
+		 * 增加资源到自定义视图
+		 */
+		
+		//execute(new CreateMarkersOperation(fMarkerType, attributes, resource, getOperationName()));
 	}
 
 	/**

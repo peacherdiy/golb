@@ -21,6 +21,8 @@ http://shuqian.qq.com/home
 
 svg或者html5+hddl替代powerDesign
 
+html5的个人计划管理器
+
 code网络搜藏家（eclipse-plugin OR windows客户端）
 
 
