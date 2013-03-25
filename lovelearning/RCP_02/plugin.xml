@@ -29,6 +29,11 @@
                name="appName"
                value="通过扩展点扩展">
          </property>
+         
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
       </product>
    </extension>
    <extension
@@ -58,5 +63,27 @@
            </action>
         </actionSet>
      </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="rcp_02.view.FirstView"
+            id="cn.blogjava.youxia.views.FirstView"
+            name="name"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+            <view
+                  id="cn.blogjava.youxia.views.FirstView"
+                  minimized="false"
+                  relationship="stack"
+                  relative="org.eclipse.ui.editorss"
+                  >
+            </view>
+      </perspectiveExtension>
+   </extension>
 
 </plugin>
