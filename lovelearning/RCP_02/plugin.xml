@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="rcp_02.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="rcp_02.Perspective"
+            id="RCP_02.perspective">
+      </perspective>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="RCP_02.application"
+            name="通过扩展点扩展">
+         <property
+               name="appName"
+               value="通过扩展点扩展">
+         </property>
+      </product>
+   </extension>
+   <extension
+            id="cn.blogjava.youxia.actionset"
+           name="我的菜单扩展"
+           point="org.eclipse.ui.actionSets" >
+         <actionSet
+               description="第一个扩展"
+              id="RCP_Start.actionSet1"
+              label="RCP_Start.actionSet1"
+              visible="true" >
+           <action
+                 class="rcp_02.actions.Action3"
+                 icon="icons/alt_window_16.gif"
+                 id="RCP_Start.action2"
+                 label="第二个菜单项"
+                 style="push"
+                 toolbarPath="additions"
+                 tooltip="第二个菜单项的按钮"/>
+           <action
+                 class="rcp_02.actions.Action3"
+                 icon="icons/alt_window_32.gif"
+                 id="additionsRCP_02.action2"
+                 label="第3个菜单项"
+                 style="push"
+                 toolbarPath="additions">
+           </action>
+        </actionSet>
+     </extension>
+
+</plugin>
