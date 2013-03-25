@@ -22,14 +22,14 @@ public class FirstView extends ViewPart {
 		Composite container = new Composite(parent, SWT.NONE);
 
 		final Label label = new Label(container, SWT.NONE);
-		label.setText("姓名：");
+		label.setText("name:");
 		label.setBounds(56, 41, 36, 12);
 
 		text = new Text(container, SWT.BORDER);
 		text.setBounds(98, 38, 80, 15);
 
 		final Label label_1 = new Label(container, SWT.NONE);
-		label_1.setText("性别：");
+		label_1.setText("sex:");
 		label_1.setBounds(212, 41, 30, 12);
 
 		text_1 = new Text(container, SWT.BORDER);
