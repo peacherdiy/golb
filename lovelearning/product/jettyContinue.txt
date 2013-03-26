@@ -136,3 +136,5 @@ zookeeper/MVCC  并发控制
 语音实验室（如： cs sound中音频，还有电视上放的  dreamworks的音效师的实验等等。）
 
 就是网上大学，同时又比传统的 ： 好玩，益智，实用。
+
+基于 http://developer.51cto.com/art/200906/126846.htm  3D 房屋设计模型设计器
