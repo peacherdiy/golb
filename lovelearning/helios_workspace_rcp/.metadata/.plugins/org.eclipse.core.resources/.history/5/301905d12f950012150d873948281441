@@ -1,0 +1,55 @@
+package rcp_01.dialog;
+
+import org.eclipse.swt.widgets.Dialog;
+
+public class FirstDialog extends  Dialog {
+	protected  Shell shell;
+	15     
+	16      private   int  result;
+	17
+	18      public  FirstDialog(Shell parent,  int  style)  {
+	19          super (parent, style);
+	20     }
+	21
+	22      public  FirstDialog(Shell parent)  {
+	23          this (parent, SWT.NONE);
+	24     }
+	25
+	26      public   int  open()  {
+	27         createContents();
+	28         shell.open();
+	29         shell.layout();
+	30         Display display  =  getParent().getDisplay();
+	31          while  ( ! shell.isDisposed())  {
+	32              if  ( ! display.readAndDispatch())
+	33                 display.sleep();
+	34         }
+	35          return  result;
+	36     }
+	37
+	38      protected   void  createContents()  {
+	39         shell  =   new  Shell(getParent(), SWT.DIALOG_TRIM  |  SWT.APPLICATION_MODAL);
+	40         shell.setSize( 150 ,  70 );
+	41         shell.setText( " 第一个对话框 " );
+	42
+	43          final  Button okButton  =   new  Button(shell, SWT.NONE);
+	44         okButton.addSelectionListener( new  SelectionAdapter()  {
+	45              public   void  widgetSelected(SelectionEvent e)  {
+	46                 result  =   1 ;
+	47                 shell.dispose();
+	48             }
+	49         } );
+	50         okButton.setText( " OK " );
+	51         okButton.setBounds( 10 ,  10 ,  48 ,  22 );
+	52
+	53          final  Button cancelButton  =   new  Button(shell, SWT.NONE);
+	54         cancelButton.addSelectionListener( new  SelectionAdapter()  {
+	55              public   void  widgetSelected(SelectionEvent e)  {
+	56                 result  =   2 ;
+	57                 shell.dispose();
+	58             }
+	59         } );
+	60         cancelButton.setText( " Cancel " );
+	61         cancelButton.setBounds( 89 ,  10 ,  48 ,  22 );
+	62     } 
+}

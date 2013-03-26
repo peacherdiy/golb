@@ -1,0 +1,7 @@
+package rcp_01.dialog;
+
+import org.eclipse.swt.widgets.Dialog;
+
+public class FirstDialog extends  Dialog {
+
+}
