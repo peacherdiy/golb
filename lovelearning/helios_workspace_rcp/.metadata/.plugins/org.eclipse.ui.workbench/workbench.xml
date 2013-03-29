@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <workbench progressCount="21" version="2.0">
+=======
+<workbench progressCount="23" version="2.0">
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="175" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -23,6 +27,13 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<<<<<<< HEAD
+=======
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -33,17 +44,25 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<<<<<<< HEAD
 <part id="1"/>
+=======
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </presentation>
 </folder>
 </info>
 </editorArea>
+<<<<<<< HEAD
 <editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="com.qualityeclipse.favorites" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/com.qualityeclipse.favorites/plugin.xml" title="com.qualityeclipse.favorites" tooltip="com.qualityeclipse.favorites/plugin.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.qualityeclipse.favorites/plugin.xml"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavoritesView.java" partName="FavoritesView.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java" title="FavoritesView.java" tooltip="com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1175" selectionTopPixel="1005"/>
+=======
+<editor activePart="true" focus="true" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="RCP_02" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_02/plugin.xml" title="RCP_02" tooltip="RCP_02/plugin.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_02/plugin.xml"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </editor>
 </editors>
 <views>
@@ -80,8 +99,12 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<<<<<<< HEAD
 <expanded>
 <category IMemento.internal.id="Warnings (1 item)"/>
+=======
+<expanded>&#x0A;<category IMemento.internal.id="Errors (1 item)"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -91,6 +114,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1364202571090">
@@ -260,6 +286,7 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<<<<<<< HEAD
 <view id="org.eclipse.pde.runtime.LogView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
@@ -269,6 +296,13 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.junit.ResultView"/>
 <view id="com.qualityeclipse.book.tools.SamplesManagerView"/>
+=======
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -276,10 +310,18 @@
 <info folder="true" part="topLeft">
 <folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<<<<<<< HEAD
+=======
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<<<<<<< HEAD
+=======
+<part id="1"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </presentation>
 </folder>
 </info>
@@ -290,6 +332,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
+<<<<<<< HEAD
 <info part="org.eclipse.ui.editorss" ratio="0.25166053" ratioLeft="341" ratioRight="1014" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.5315024" ratioLeft="329" ratioRight="290" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
@@ -312,9 +355,24 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
+=======
+<info part="org.eclipse.ui.editorss" ratio="0.2509225" ratioLeft="340" ratioRight="1015" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6235864" ratioLeft="386" ratioRight="233" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </presentation>
 </folder>
 </info>
+<<<<<<< HEAD
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1a765a3" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -416,6 +474,13 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+=======
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ddb605" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </presentation>
 </folder>
 </info>
@@ -426,6 +491,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<<<<<<< HEAD
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/FavoritesActivator.java"/>
 <editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=com.qualityeclipse.favorites/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.core.runtime_3.6.0.v20100505.jar&lt;org.eclipse.core.runtime(Plugin.class"/>
 <editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=com.qualityeclipse.favorites/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.plugin(AbstractUIPlugin.class"/>
@@ -456,6 +522,26 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/Person.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TextViewerExample.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
+=======
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/RCP_01/RCP_01.product"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/RCP_01/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/Perspective.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchAdvisor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/Application.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchAdvisor.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/RCP_01/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/RCP_01/RCP_01.product"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchWindowAdvisor.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/actions/Action1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/dialog/FirstDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/RCP_02/RCP_02.product"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_02/src/rcp_02/perspective/PerspectiveFactory1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/RCP_02/plugin.xml"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </editors>
 <item historyLabel="Plugin.class" index="1">
 <position info="not_deleted" x="31149" y="0"/>
@@ -536,6 +622,7 @@
 <item historyLabel="TreeExample.java" index="13">
 <position info="not_deleted" x="602" y="0"/>
 </item>
+<<<<<<< HEAD
 <item historyLabel="CompositeExample.java" index="14">
 <position info="not_deleted" x="1118" y="0"/>
 </item>
@@ -594,12 +681,31 @@
 <item active="true" historyLabel="FavoritesView.java" index="29">
 <position info="not_deleted" x="0" y="0"/>
 </item>
+=======
+<item historyLabel="RCP_01" index="9"/>
+<item historyLabel="RCP_01.product" index="10"/>
+<item historyLabel="RCP_02.product" index="15"/>
+<item historyLabel="PerspectiveFactory1.java" index="16">
+<position info="not_deleted" x="383" y="0"/>
+</item>
+<item historyLabel="RCP_02.product" index="15"/>
+<item historyLabel="PerspectiveFactory1.java" index="16">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="RCP_02" index="17"/>
+<item historyLabel="PerspectiveFactory1.java" index="16">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="RCP_02.product" index="15"/>
+<item active="true" historyLabel="RCP_02" index="17"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<<<<<<< HEAD
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="topLeft"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@101d92f"/>
@@ -609,6 +715,8 @@
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1ddb605"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1a765a3"/>
 </trimArea>
+=======
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -620,8 +728,22 @@
 </trimLayout>
 </window>
 <mruList>
+<<<<<<< HEAD
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavoritesView.java" tooltip="com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java">
 <persistable path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
+=======
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="RCP_02/plugin.xml">
+<persistable path="/RCP_02/plugin.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PerspectiveFactory1.java" tooltip="RCP_02/src/rcp_02/perspective/PerspectiveFactory1.java">
+<persistable path="/RCP_02/src/rcp_02/perspective/PerspectiveFactory1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" name="RCP_02.product" tooltip="RCP_02/RCP_02.product">
+<persistable path="/RCP_02/RCP_02.product"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstDialog.java" tooltip="RCP_01/src/rcp_01/dialog/FirstDialog.java">
+<persistable path="/RCP_01/src/rcp_01/dialog/FirstDialog.java"/>
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="com.qualityeclipse.favorites/plugin.xml">
 <persistable path="/com.qualityeclipse.favorites/plugin.xml"/>

@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 #Fri Mar 29 15:52:06 CST 2013
+=======
+#Tue Mar 26 18:09:14 CST 2013
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 eclipse.preferences.version=1
 tipsAndTricks=true
+<<<<<<< HEAD
 platformState=1358407469476
+=======
+platformState=1358407469471
+>>>>>>> branch 'master' of https://github.com/peacherdiy/golb.git
 quickStart=false
 PROBLEMS_FILTERS_MIGRATE=true
