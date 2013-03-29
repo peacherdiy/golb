@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<bundle bundleID="413" class="com.qualityeclipse.favorites.FavoritesPlugin" localization="plugin" name="Favorites Plug-in" project="com.qualityeclipse.favorites" provider="Quality Eclipse">
-		<library name="favorites.jar"/>
-	</bundle>
-	<bundle bundleID="414" class="com.qualityeclipse.favorites.test.FavoritesTestPlugin" localization="plugin" name="Favorites Test Plug-in" project="com.qualityeclipse.favorites.test" provider="Quality Eclipse">
-		<library name="favoritesTest.jar"/>
-	</bundle>
-</map>

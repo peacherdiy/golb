@@ -1,5 +1,0 @@
-package rcp_01.dialog;
-
-public class FirstDialog 	extends  Dialog {
-
-}
