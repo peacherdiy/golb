@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="rcp_01.actions.Action1"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Button"/>
 <fullyQualifiedTypeName name="rcp_01.dialog.FirstDialog"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.ole.win32.OleFrame"/>
 </qualifiedTypeNameHistroy>

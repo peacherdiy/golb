@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="175" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -10,17 +10,19 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="84" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -32,45 +34,57 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWorkbenchWindowAdvisor.java" partName="ApplicationWorkbenchWindowAdvisor.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java" title="ApplicationWorkbenchWindowAdvisor.java" tooltip="RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="611" selectionTopPixel="0"/>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="com.qualityeclipse.favorites" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/com.qualityeclipse.favorites/plugin.xml" title="com.qualityeclipse.favorites" tooltip="com.qualityeclipse.favorites/plugin.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.qualityeclipse.favorites/plugin.xml"/>
 </editor>
-<editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="RCP_01" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/plugin.xml" title="RCP_01" tooltip="RCP_01/plugin.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/plugin.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.pde.ui.productEditor" name="RCP_01.product" partName="RCP_01.product" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/RCP_01.product" title="RCP_01.product" tooltip="RCP_01/RCP_01.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/RCP_01.product"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationActionBarAdvisor.java" partName="ApplicationActionBarAdvisor.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java" title="ApplicationActionBarAdvisor.java" tooltip="RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="653" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action1.java" partName="Action1.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/src/rcp_01/actions/Action1.java" title="Action1.java" tooltip="RCP_01/src/rcp_01/actions/Action1.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/src/rcp_01/actions/Action1.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="765" selectionTopPixel="34"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstDialog.java" partName="FirstDialog.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/RCP_01/src/rcp_01/dialog/FirstDialog.java" title="FirstDialog.java" tooltip="RCP_01/src/rcp_01/dialog/FirstDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RCP_01/src/rcp_01/dialog/FirstDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="552" selectionTopPixel="478"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavoritesView.java" partName="FavoritesView.java" path="C:/Users/QinJifa/git/golb/lovelearning/helios_workspace_rcp/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java" title="FavoritesView.java" tooltip="com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1175" selectionTopPixel="1005"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="com.qualityeclipse.book.tools.SamplesManagerView" partName="QualityEclipse Book Samples">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.ui.DependenciesView" partName="Plug-in Dependencies">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.RegistryBrowser" partName="Plug-in Registry">
+<viewState RegistryView.groupBy="0" RegistryView.showAdvancedMode.label="false" RegistryView.showDisabledMode.label="false" RegistryView.showRunning.label="false"/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -107,18 +121,13 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
-<viewState activate="true" allSessions="true" column2="300" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.pde.ui.productEditor" activePerspective="org.eclipse.pde.ui.PDEPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.pde.ui.PDEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -174,59 +183,46 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@627b5c" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@627b5c" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.74958813" ratioLeft="455" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="bottom" ratio="0.74958813" ratioLeft="455" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.pde.internal.ui.PDEPerspective" id="org.eclipse.pde.ui.PDEPerspective" label="Plug-in Development"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -241,6 +237,7 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="com.qualityeclipse.book.tools.SamplesManagerView"/>
 <show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
 <show_view_action id="org.eclipse.pde.ui.PluginsView"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
@@ -262,57 +259,164 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.pde.runtime.LogView" style="1">
-<fastViews>
-<view id="org.eclipse.pde.runtime.LogView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
-<view id="org.eclipse.pde.ui.PluginsView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1ddb605" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.pde.runtime.RegistryBrowser"/>
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.ui.DependenciesView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="com.qualityeclipse.book.tools.SamplesManagerView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<page content="org.eclipse.pde.ui.PluginsView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2509225" ratioLeft="340" ratioRight="1015" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.7491749" ratioLeft="454" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info part="org.eclipse.ui.editorss" ratio="0.25166053" ratioLeft="341" ratioRight="1014" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.5315024" ratioLeft="329" ratioRight="290" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.qualityeclipse.book.tools.SamplesManagerView" label="QualityEclipse Book Samples"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.pde.runtime.RegistryBrowser" label="Plug-in Registry"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
+<page content="org.eclipse.pde.ui.DependenciesView" label="Plug-in Dependencies"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ddb605" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a765a3" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6752827" ratioLeft="418" ratioRight="201" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44849786" ratioLeft="209" ratioRight="257" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="652" ratioRight="652" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -322,118 +426,174 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/RCP_01/RCP_01.product"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/RCP_01/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/Perspective.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchAdvisor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/Application.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchAdvisor.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/RCP_01/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/RCP_01/RCP_01.product"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchWindowAdvisor.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/actions/Action1.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RCP_01/src/rcp_01/dialog/FirstDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/FavoritesActivator.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=com.qualityeclipse.favorites/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.core.runtime_3.6.0.v20100505.jar&lt;org.eclipse.core.runtime(Plugin.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=com.qualityeclipse.favorites/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.plugin(AbstractUIPlugin.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/HelloWorld.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ButtonExample.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.swt.win32.win32.x86_3.6.2.v3659c.jar&lt;org.eclipse.swt.layout(FillLayout.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.swt.win32.win32.x86_3.6.2.v3659c.jar&lt;org.eclipse.swt.events(SelectionAdapter.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/com.qualityeclipse.favorites/plugin.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TextExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ListExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ComboExample.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.swt.win32.win32.x86_3.6.2.v3659c.jar&lt;org.eclipse.swt(SWT.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TableExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TreeExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/CompositeExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/GroupExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TabFolderExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/MenuExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/FillLayoutExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ComboExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/RowLayoutExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/GridLayoutExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/FormLayoutExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/GroupExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ListExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ListViewerExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TreeViewerExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/Person.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TextViewerExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
 </editors>
-<item historyLabel="RCP_01.product" index="0"/>
-<item historyLabel="RCP_01" index="1"/>
-<item historyLabel="RCP_01.product" index="0"/>
-<item historyLabel="RCP_01" index="1"/>
-<item historyLabel="Perspective.java" index="2">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="Plugin.class" index="1">
+<position info="not_deleted" x="31149" y="0"/>
 </item>
-<item historyLabel="ApplicationWorkbenchWindowAdvisor.java" index="3">
-<position info="not_deleted" x="484" y="0"/>
+<item historyLabel="AbstractUIPlugin.class" index="2">
+<position info="not_deleted" x="5667" y="0"/>
 </item>
-<item historyLabel="ApplicationWorkbenchAdvisor.java" index="4">
+<item historyLabel="FavoritesActivator.java" index="0">
+<position info="not_deleted" x="708" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="3">
+<position info="not_deleted" x="913" y="0"/>
+</item>
+<item historyLabel="ButtonExample.java" index="4">
 <position/>
 </item>
-<item historyLabel="ApplicationWorkbenchWindowAdvisor.java" index="3">
-<position info="not_deleted" x="484" y="0"/>
-</item>
-<item historyLabel="ApplicationActionBarAdvisor.java" index="5">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item historyLabel="Application.java" index="6">
-<position info="not_deleted" x="858" y="0"/>
-</item>
-<item historyLabel="RCP_01" index="1"/>
-<item historyLabel="Application.java" index="6">
-<position info="not_deleted" x="677" y="0"/>
-</item>
-<item historyLabel="ApplicationWorkbenchAdvisor.java" index="4">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="WorkbenchAdvisor.class" index="7">
-<position info="not_deleted" x="5488" y="16"/>
-</item>
-<item historyLabel="ApplicationWorkbenchAdvisor.java" index="4">
-<position info="not_deleted" x="485" y="0"/>
-</item>
-<item historyLabel="ApplicationWorkbenchWindowAdvisor.java" index="8">
-<position info="not_deleted" x="842" y="0"/>
-</item>
-<item historyLabel="RCP_01" index="9"/>
-<item historyLabel="RCP_01.product" index="10"/>
-<item historyLabel="ApplicationWorkbenchWindowAdvisor.java" index="8">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="ApplicationActionBarAdvisor.java" index="11">
-<position info="not_deleted" x="470" y="27"/>
-</item>
-<item historyLabel="WorkbenchWindowAdvisor.class" index="12">
-<position info="not_deleted" x="3463" y="19"/>
-</item>
-<item historyLabel="ApplicationActionBarAdvisor.java" index="11">
-<position info="not_deleted" x="470" y="27"/>
-</item>
-<item historyLabel="ApplicationWorkbenchWindowAdvisor.java" index="8">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="ApplicationActionBarAdvisor.java" index="11">
-<position info="not_deleted" x="1002" y="0"/>
-</item>
-<item historyLabel="Action1.java" index="13">
+<item historyLabel="FillLayout.class" index="5">
 <position/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
+<item historyLabel="ButtonExample.java" index="4">
 <position/>
 </item>
-<item historyLabel="Action1.java" index="13">
+<item historyLabel="SelectionAdapter.class" index="6">
+<position info="not_deleted" x="1042" y="16"/>
+</item>
+<item historyLabel="ButtonExample.java" index="4">
 <position/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
+<item historyLabel="ButtonExample.java" index="4">
 <position/>
 </item>
-<item historyLabel="ApplicationActionBarAdvisor.java" index="11">
-<position info="not_deleted" x="653" y="0"/>
+<item historyLabel="com.qualityeclipse.favorites" index="7"/>
+<item historyLabel="ButtonExample.java" index="4">
+<position info="not_deleted" x="1155" y="0"/>
 </item>
-<item historyLabel="Action1.java" index="13">
+<item historyLabel="TextExample.java" index="8">
+<position info="not_deleted" x="958" y="4"/>
+</item>
+<item historyLabel="ButtonExample.java" index="4">
+<position info="not_deleted" x="1155" y="0"/>
+</item>
+<item historyLabel="TextExample.java" index="8">
+<position info="not_deleted" x="925" y="0"/>
+</item>
+<item historyLabel="ListExample.java" index="9">
+<position info="not_deleted" x="1406" y="0"/>
+</item>
+<item historyLabel="ComboExample.java" index="10">
 <position/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
+<item historyLabel="SWT.class" index="11">
+<position info="not_deleted" x="55449" y="61"/>
+</item>
+<item historyLabel="ComboExample.java" index="10">
+<position info="not_deleted" x="1008" y="5"/>
+</item>
+<item historyLabel="ListExample.java" index="9">
+<position info="not_deleted" x="1406" y="0"/>
+</item>
+<item historyLabel="ComboExample.java" index="10">
+<position info="not_deleted" x="1034" y="0"/>
+</item>
+<item historyLabel="FillLayout.class" index="5">
 <position/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
-<position info="not_deleted" x="1153" y="6"/>
+<item historyLabel="ComboExample.java" index="10">
+<position info="not_deleted" x="1031" y="0"/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
-<position info="not_deleted" x="981" y="6"/>
+<item historyLabel="FillLayout.class" index="5">
+<position info="not_deleted" x="3339" y="10"/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
-<position info="not_deleted" x="521" y="0"/>
+<item historyLabel="ComboExample.java" index="10">
+<position info="not_deleted" x="911" y="0"/>
 </item>
-<item historyLabel="Action1.java" index="13">
-<position info="not_deleted" x="765" y="0"/>
+<item historyLabel="TableExample.java" index="12">
+<position info="not_deleted" x="906" y="0"/>
 </item>
-<item historyLabel="FirstDialog.java" index="14">
-<position info="not_deleted" x="552" y="0"/>
+<item historyLabel="TreeExample.java" index="13">
+<position info="not_deleted" x="602" y="0"/>
 </item>
-<item historyLabel="RCP_01" index="9"/>
-<item active="true" historyLabel="RCP_01.product" index="10"/>
+<item historyLabel="CompositeExample.java" index="14">
+<position info="not_deleted" x="1118" y="0"/>
+</item>
+<item historyLabel="GroupExample.java" index="15">
+<position info="not_deleted" x="947" y="0"/>
+</item>
+<item historyLabel="CompositeExample.java" index="14">
+<position info="not_deleted" x="1193" y="0"/>
+</item>
+<item historyLabel="TabFolderExample.java" index="16">
+<position info="not_deleted" x="1467" y="0"/>
+</item>
+<item historyLabel="MenuExample.java" index="17">
+<position info="not_deleted" x="944" y="0"/>
+</item>
+<item historyLabel="FillLayoutExample.java" index="18">
+<position info="not_deleted" x="902" y="0"/>
+</item>
+<item historyLabel="ComboExample.java" index="19">
+<position info="not_deleted" x="811" y="0"/>
+</item>
+<item historyLabel="FillLayoutExample.java" index="18">
+<position info="not_deleted" x="941" y="8"/>
+</item>
+<item historyLabel="RowLayoutExample.java" index="20">
+<position info="not_deleted" x="966" y="0"/>
+</item>
+<item historyLabel="GridLayoutExample.java" index="21">
+<position info="not_deleted" x="1482" y="0"/>
+</item>
+<item historyLabel="FormLayoutExample.java" index="22">
+<position info="not_deleted" x="551" y="0"/>
+</item>
+<item historyLabel="GroupExample.java" index="23">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="ListExample.java" index="24">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="ListViewerExample.java" index="25">
+<position info="not_deleted" x="1262" y="0"/>
+</item>
+<item historyLabel="TreeViewerExample.java" index="26">
+<position info="not_deleted" x="742" y="0"/>
+</item>
+<item historyLabel="Person.java" index="27">
+<position info="not_deleted" x="614" y="0"/>
+</item>
+<item historyLabel="TreeViewerExample.java" index="26">
+<position info="not_deleted" x="469" y="0"/>
+</item>
+<item historyLabel="TextViewerExample.java" index="28">
+<position info="not_deleted" x="1348" y="0"/>
+</item>
+<item historyLabel="com.qualityeclipse.favorites" index="7"/>
+<item active="true" historyLabel="FavoritesView.java" index="29">
+<position info="not_deleted" x="0" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -442,9 +602,12 @@
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@101d92f"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottomRight"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1ddb605"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1a765a3"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -453,43 +616,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstDialog.java" tooltip="RCP_01/src/rcp_01/dialog/FirstDialog.java">
-<persistable path="/RCP_01/src/rcp_01/dialog/FirstDialog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavoritesView.java" tooltip="com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java">
+<persistable path="/com.qualityeclipse.favorites/src/com/qualityeclipse/favorites/views/FavoritesView.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Action1.java" tooltip="RCP_01/src/rcp_01/actions/Action1.java">
-<persistable path="/RCP_01/src/rcp_01/actions/Action1.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="com.qualityeclipse.favorites/plugin.xml">
+<persistable path="/com.qualityeclipse.favorites/plugin.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationActionBarAdvisor.java" tooltip="RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java">
-<persistable path="/RCP_01/src/rcp_01/ApplicationActionBarAdvisor.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TextViewerExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/TextViewerExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TextViewerExample.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WorkbenchWindowAdvisor.class" tooltip="org.eclipse.ui.application.WorkbenchWindowAdvisor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchWindowAdvisor.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/Person.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/Person.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" name="RCP_01.product" tooltip="RCP_01/RCP_01.product">
-<persistable path="/RCP_01/RCP_01.product"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CustomHashtable$HashMapEntry.class" tooltip="org.eclipse.jface.viewers.CustomHashtable$HashMapEntry">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.jface_3.6.2.M20110210-1200.jar&lt;org.eclipse.jface.viewers(CustomHashtable$HashMapEntry.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="RCP_01/plugin.xml">
-<persistable path="/RCP_01/plugin.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CustomHashtable.class" tooltip="org.eclipse.jface.viewers.CustomHashtable">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.jface_3.6.2.M20110210-1200.jar&lt;org.eclipse.jface.viewers(CustomHashtable.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWorkbenchWindowAdvisor.java" tooltip="RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java">
-<persistable path="/RCP_01/src/rcp_01/ApplicationWorkbenchWindowAdvisor.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StructuredViewer.class" tooltip="org.eclipse.jface.viewers.StructuredViewer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.jface_3.6.2.M20110210-1200.jar&lt;org.eclipse.jface.viewers(StructuredViewer.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WorkbenchAdvisor.class" tooltip="org.eclipse.ui.application.WorkbenchAdvisor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=RCP_01/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar&lt;org.eclipse.ui.application(WorkbenchAdvisor.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonTreeContentProvider.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/PersonTreeContentProvider.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/PersonTreeContentProvider.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWorkbenchAdvisor.java" tooltip="RCP_01/src/rcp_01/ApplicationWorkbenchAdvisor.java">
-<persistable path="/RCP_01/src/rcp_01/ApplicationWorkbenchAdvisor.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeViewerExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/TreeViewerExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/TreeViewerExample.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Application.java" tooltip="RCP_01/src/rcp_01/Application.java">
-<persistable path="/RCP_01/src/rcp_01/Application.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayContentProvider.class" tooltip="org.eclipse.jface.viewers.ArrayContentProvider">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=SWT and JFace Examples/D:\/document\/public\/software\/eclipse\/eclipse-SDK-3.6.2-win32\/plugins\/org.eclipse.jface_3.6.2.M20110210-1200.jar&lt;org.eclipse.jface.viewers(ArrayContentProvider.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Perspective.java" tooltip="RCP_01/src/rcp_01/Perspective.java">
-<persistable path="/RCP_01/src/rcp_01/Perspective.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonListLabelProvider.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/PersonListLabelProvider.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/PersonListLabelProvider.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListViewerExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/ListViewerExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ListViewerExample.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/ListExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/ListExample.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroupExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/GroupExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/GroupExample.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FormLayoutExample.java" tooltip="SWT and JFace Examples/src/com/qualityeclipse/sample/FormLayoutExample.java">
+<persistable path="/SWT and JFace Examples/src/com/qualityeclipse/sample/FormLayoutExample.java"/>
 </file>
 </mruList>
 </workbench>

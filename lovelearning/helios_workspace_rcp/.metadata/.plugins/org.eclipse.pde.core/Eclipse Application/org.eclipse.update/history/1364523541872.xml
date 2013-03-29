@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1364523541872" transient="true" version="3.0">
+<site enabled="true" list="helios_workspace_rcp/com.qualityeclipse.favorites/" policy="USER-INCLUDE" updateable="true" url="file:/C:/Users/QinJifa/git/golb/lovelearning/">
+</site>
+<site enabled="true" list="plugins/org.eclipse.core.databinding.property_1.3.0.I20100601-0800.jar,plugins/org.eclipse.core.databinding_1.3.100.I20100601-0800.jar,plugins/org.eclipse.ui.views_3.5.1.M20110202-0800.jar,plugins/org.eclipse.equinox.concurrent_1.0.100.v20100503.jar,plugins/org.eclipse.equinox.common_3.6.0.v20100503.jar,plugins/org.apache.lucene_1.9.1.v20100518-1140.jar,plugins/org.eclipse.equinox.http.servlet_1.1.0.v20100503.jar,plugins/org.eclipse.ecf_3.1.0.v20100906-1425.jar,plugins/org.eclipse.core.commands_3.6.0.I20100512-1500.jar,plugins/org.eclipse.equinox.security_1.0.200.v20100503.jar,plugins/org.eclipse.ecf.identity_3.1.0.v20100906-1425.jar,plugins/org.eclipse.ui.ide_3.6.2.M20101201-0800.jar,plugins/org.eclipse.sdk_3.6.2.v201102101200,plugins/javax.servlet_2.5.0.v200910301333.jar,plugins/org.eclipse.jface_3.6.2.M20110210-1200.jar,plugins/org.eclipse.help.ui_3.5.3.r36_20101116.jar,plugins/org.eclipse.equinox.p2.engine_2.0.1.R36x_v20110201.jar,plugins/org.apache.ant_1.7.1.v20100518-1145,plugins/org.eclipse.jface.databinding_1.4.0.I20100601-0800.jar,plugins/org.eclipse.ecf.filetransfer_4.0.0.v20100906-1425.jar,plugins/org.eclipse.equinox.p2.core_2.0.3.R36x_v20110111.jar,plugins/org.eclipse.core.runtime.compatibility.auth_3.2.200.v20100517.jar,plugins/org.eclipse.core.filesystem.win32.x86_1.1.201.R36x_v20100727-0745.jar,plugins/org.eclipse.ant.core_3.2.201.v20110203_r362.jar,plugins/org.eclipse.core.net_1.2.100.I20100511-0800.jar,plugins/org.eclipse.ui_3.6.2.M20110203-1100.jar,plugins/org.eclipse.ui.win32_3.2.200.I20100509-0800.jar,plugins/javax.servlet.jsp_2.0.0.v200806031607.jar,plugins/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar,plugins/org.eclipse.core.expressions_3.4.200.v20100505.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.3.0.v20100520,plugins/org.eclipse.swt.win32.win32.x86_3.6.2.v3659c.jar,plugins/org.eclipse.osgi.services_3.2.100.v20100503.jar,plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20100906-1425.jar,plugins/org.eclipse.jface.text_3.6.1.r361_v20100825-0800.jar,plugins/org.apache.commons.el_1.0.0.v201004212143.jar,plugins/org.eclipse.core.runtime_3.6.0.v20100505.jar,plugins/org.eclipse.ui.ide.application_1.0.201.M20100707-0800.jar,plugins/org.apache.commons.logging_1.0.4.v201005080501.jar,plugins/org.eclipse.equinox.p2.metadata_2.0.1.R36x_v20101202.jar,plugins/org.eclipse.ui.forms_3.5.2.r36_v20100702.jar,plugins/org.eclipse.equinox.security.win32.x86_1.0.200.v20100503.jar,plugins/org.eclipse.core.contenttype_3.4.100.v20100505-1235.jar,plugins/org.apache.jasper_5.5.17.v201004212143.jar,plugins/org.eclipse.help_3.5.0.v20100524.jar,plugins/org.mortbay.jetty.util_6.1.23.v201004211559.jar,plugins/org.eclipse.core.filesystem_1.3.1.R36x_v20100727-0745.jar,plugins/org.eclipse.ecf.provider.filetransfer_3.1.0.v20100906-1425.jar,plugins/org.eclipse.core.resources_3.6.1.R36x_v20110131-1630.jar,plugins/org.eclipse.equinox.preferences_3.3.0.v20100503.jar,plugins/org.eclipse.core.variables_3.2.400.v20100505.jar,plugins/org.eclipse.core.resources.win32.x86_3.5.100.v20100505-1345.jar,plugins/org.eclipse.equinox.p2.repository_2.0.2.R36x_v20110111-1500.jar,plugins/org.eclipse.core.databinding.observable_1.3.0.I20100601-0800.jar,plugins/org.eclipse.equinox.registry_3.5.0.v20100503.jar,plugins/org.eclipse.osgi_3.6.2.R36x_v20110210.jar,plugins/org.eclipse.equinox.p2.metadata.repository_1.1.0.v20100513.jar,plugins/org.eclipse.swt_3.6.2.v3659c.jar,plugins/org.eclipse.help.base_3.5.3.v201102101200.jar,plugins/org.mortbay.jetty.server_6.1.23.v201004211559.jar,plugins/org.eclipse.core.jobs_3.5.1.R36x_v20100824.jar,plugins/org.eclipse.ecf.ssl_1.0.100.v20100906-1425.jar,plugins/org.eclipse.text_3.5.0.v20100601-1300.jar,plugins/org.eclipse.ui.cheatsheets_3.4.0.v20100427.jar,plugins/com.ibm.icu_4.2.1.v20100412.jar,plugins/org.eclipse.core.net.win32.x86_1.0.100.I20100511-0800.jar,plugins/org.eclipse.equinox.app_1.3.1.R36x_v20100803.jar,plugins/org.eclipse.equinox.http.jetty_2.0.0.v20100503.jar,plugins/org.apache.lucene.analysis_1.9.1.v20100518-1140.jar" policy="USER-INCLUDE" updateable="true" url="file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/">
+<feature id="org.eclipse.jdt.source" url="features/org.eclipse.jdt.source_3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F/" version="3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F">
+</feature>
+<feature id="com.qualityeclipse.book" url="features/com.qualityeclipse.book_3.6.0.r36x201107210332/" version="3.6.0.r36x201107210332">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi/" version="3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.6.2.r362_v20101104-9SAxFMKFkSAqi8axkv1ZjegmiBLY/" version="3.6.2.r362_v20101104-9SAxFMKFkSAqi8axkv1ZjegmiBLY">
+</feature>
+<feature id="org.eclipse.help.source" url="features/org.eclipse.help.source_1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D/" version="1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F/" version="3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F">
+</feature>
+<feature id="org.eclipse.sdk" url="features/org.eclipse.sdk_3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC/" version="3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D/" version="1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D">
+</feature>
+<feature id="org.eclipse.cvs.source" url="features/org.eclipse.cvs.source_1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E/" version="1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.0.1.r361_v20100903-897HFa-FX0z-z-ntoaavz0JPX628/" version="2.0.1.r361_v20100903-897HFa-FX0z-z-ntoaavz0JPX628">
+</feature>
+<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_3.6.2.r362_v20101104-9SAxFMKFkSAqi8axkv1ZjegmiBLY/" version="3.6.2.r362_v20101104-9SAxFMKFkSAqi8axkv1ZjegmiBLY">
+</feature>
+<feature id="org.eclipse.pde.source" url="features/org.eclipse.pde.source_3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL/" version="3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL">
+</feature>
+<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi/" version="3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.0.1.r361_v20100903-897HFa-FX0z-z-ntoaavz0JPX628/" version="2.0.1.r361_v20100903-897HFa-FX0z-z-ntoaavz0JPX628">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL/" version="3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E/" version="1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E">
+</feature>
+</site>
+</config>

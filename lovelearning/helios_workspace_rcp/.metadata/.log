@@ -1,0 +1,250 @@
+!SESSION 2013-03-28 16:58:02.787 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.106
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\com.sun.jna_3.0.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.106
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.feature_1.5.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.106
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.javahl.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.137
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.svnkit.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.137
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.graph.feature_1.0.7.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.137
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.137
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse_1.4.8.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-28 17:03:21.137
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tmatesoft.svnkit_1.2.3.5521.jar
+!SESSION 2013-03-29 09:15:10.938 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-03-29 09:15:13.590
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:98)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:198)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:67)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:492)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:374)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1067)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:561)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:546)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:459)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:440)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-03-29 09:15:13.590
+!MESSAGE No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-03-29 09:15:13.605
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:95)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:225)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:93)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:67)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:492)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:374)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1067)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:561)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:546)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:459)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:440)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2013-03-29 09:15:13.605
+!MESSAGE No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+!SESSION 2013-03-29 09:25:49.203 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-03-29 09:25:50.261
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:98)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:198)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:67)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:492)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:374)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1067)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:561)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:546)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:459)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:440)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-03-29 09:25:50.261
+!MESSAGE No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-03-29 09:25:50.281
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:95)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:225)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:93)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:67)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:492)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:374)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1067)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:561)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:546)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:459)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:440)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2013-03-29 09:25:50.281
+!MESSAGE No repository found at file:/D:/document/public/software/eclipse/eclipse-SDK-3.6.2-win32/dropins/egit/.
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.001
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\com.sun.jna_3.0.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.001
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.feature_1.5.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.001
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.javahl.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.011
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.svnkit.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.011
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.graph.feature_1.0.7.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.011
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.011
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse_1.4.8.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:25:59.011
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tmatesoft.svnkit_1.2.3.5521.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.167
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\com.sun.jna_3.0.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.167
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.feature_1.5.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.167
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.javahl.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.167
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.svnkit.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.183
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.graph.feature_1.0.7.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.183
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.183
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse_1.4.8.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 09:39:04.183
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tmatesoft.svnkit_1.2.3.5521.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\com.sun.jna_3.0.9.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.feature_1.5.3.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.javahl.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.clientadapter.svnkit.feature_1.5.6.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.graph.feature_1.0.7.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse.mylyn_3.0.0.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tigris.subversion.subclipse_1.4.8.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2013-03-29 11:55:08.035
+!MESSAGE Unable to find feature.xml in directory: D:\document\public\software\eclipse\eclipse-SDK-3.6.2-win32\dropins\svn\features\org.tmatesoft.svnkit_1.2.3.5521.jar
