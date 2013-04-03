@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.mylyn.tasks.ui.repositories">
+      <connectorCore
+            class="org.monkeyperson.task.ui.MonkeyRepositoryConnector"
+            name="Monkey Connector">
+      </connectorCore>
+      <connectorUi
+            brandingIcon="icons/trac-icon.gif"
+            class="org.monkeyperson.task.ui.MonkeyRepositoryConnectorUi1"
+            name="Monkey Connector UI"
+            overlayIcon="icons/overlay-trac.gif">
+      </connectorUi>
+      <taskListMigrator
+            class="org.monkeyperson.task.ui.AbstractTaskListMigrator:2">
+      </taskListMigrator>
+   </extension>
+   <extension
+         point="org.eclipse.mylyn.tasks.core.templates">
+      <repository
+            label="Monkey Task"
+            repositoryKind="monkey"
+            urlRepository="http://monkeyperson.com/repo">
+      </repository>
+   </extension>
+   <extension
+         point="org.eclipse.mylyn.tasks.ui.editors">
+      <pageFactory
+            class="org.monkeyperson.task.ui.editor.MonkeyTaskEditorPageFactory"
+            id="org.monkeyperson.task.ui.pageFactory">
+      </pageFactory>
+   </extension>
+</plugin>
