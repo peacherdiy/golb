@@ -4,6 +4,13 @@ $page.setTitle("It works.")
 
 <ol>
 <li>
+    <h2>hello world 何胜</h2>
+
+    #set($url = "$app1Link.setTarget('simple/HelloWorld.do')")
+    <a href="$url">$url</a>
+</li>
+
+<li>
     <h2>Simple Page without Template</h2>
 
     #set($url = "$app1Link.setTarget('simple/SayHi.do')")
