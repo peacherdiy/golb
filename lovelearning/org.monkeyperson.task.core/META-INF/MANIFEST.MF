@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Task Core
 Bundle-SymbolicName: org.monkeyperson.task.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: org.monkeyperson.task.core.Activator
+Bundle-Activator: org.monkeyperson.task.core.CoreActivator
 Bundle-Vendor: monkeyperson.com
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.mylyn.commons.core;bundle-version="[3.8.3,4.0.0)",
