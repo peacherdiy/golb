@@ -31,6 +31,10 @@
                 <when>
                     <!-- 执行带模板的screen，默认有layout。 -->
                     <pl-conditions:target-extension-condition extension="null" />
+                    <!-- 
+                   		和其它框架中的action概念不同，在Webx Turbine中，action是用来处理用户提交的表单的。
+                    	因为本次请求未提供action参数，所以跳过该步骤。  
+                    -->
                     <performAction />
                     <performTemplateScreen />
                     <renderTemplate />
