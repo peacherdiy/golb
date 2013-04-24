@@ -6,7 +6,7 @@ import com.alibaba.citrus.turbine.Context;
  * 展示blog列表 
  * @author hesheng
  */
-public class GetBlogList {
+public class Default {
 	public void execute(Context context) {
         context.put("list", new String[] {
                 "blog1",
