@@ -31,9 +31,11 @@ import com.alibaba.citrus.util.io.StreamUtil;
 import com.alibaba.sample.petstore.biz.DuplicatedProductException;
 import com.alibaba.sample.petstore.biz.StoreManager;
 import com.alibaba.sample.petstore.biz.StoreManagerException;
+import com.alibaba.sample.petstore.dal.dao.BlogDao;
 import com.alibaba.sample.petstore.dal.dao.CategoryDao;
 import com.alibaba.sample.petstore.dal.dao.ProductDao;
 import com.alibaba.sample.petstore.dal.dao.ProductItemDao;
+import com.alibaba.sample.petstore.dal.dataobject.Blog;
 import com.alibaba.sample.petstore.dal.dataobject.Cart;
 import com.alibaba.sample.petstore.dal.dataobject.CartItem;
 import com.alibaba.sample.petstore.dal.dataobject.Category;
@@ -59,6 +61,9 @@ public class StoreManagerImpl implements StoreManager, InitializingBean {
 
     @Autowired
     private ResourceLoader resourceLoader;
+    
+    @Autowired
+    private BlogDao blogDao;
 
     private File uploadDir;
 
@@ -197,4 +202,8 @@ public class StoreManagerImpl implements StoreManager, InitializingBean {
 
         return imageFileName;
     }
+
+	public List<Blog> getBlogs() {
+		return blogDao.getBlogList();
+	}
 }

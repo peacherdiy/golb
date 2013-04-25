@@ -35,7 +35,6 @@
   <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/0.9.29/logback-core-0.9.29.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/0.9.29/logback-core-0.9.29-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar" sourcepath="M2_REPO/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2.jar" sourcepath="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2-sources.jar"/>
-  <classpathentry kind="src" path="/petstore-dal"/>
   <classpathentry kind="var" path="M2_REPO/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE-sources.jar"/>
@@ -51,6 +50,7 @@
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.1.2.RELEASE/spring-tx-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-tx/3.1.2.RELEASE/spring-tx-3.1.2.RELEASE-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/3.1.2.RELEASE/spring-webmvc-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-webmvc/3.1.2.RELEASE/spring-webmvc-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/alibaba/citrus/sample/tutorial1webx-dal/1.0/tutorial1webx-dal-1.0.jar" sourcepath="M2_REPO/com/alibaba/citrus/sample/tutorial1webx-dal/1.0/tutorial1webx-dal-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7.jar" sourcepath="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1.jar" sourcepath="M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar" sourcepath="M2_REPO/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0-sources.jar"/>

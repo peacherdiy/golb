@@ -19,6 +19,7 @@ package com.alibaba.sample.petstore.biz;
 
 import java.util.List;
 
+import com.alibaba.sample.petstore.dal.dataobject.Blog;
 import com.alibaba.sample.petstore.dal.dataobject.Cart;
 import com.alibaba.sample.petstore.dal.dataobject.Category;
 import com.alibaba.sample.petstore.dal.dataobject.Product;
@@ -37,4 +38,6 @@ public interface StoreManager {
     ProductItem getProductItem(String itemId);
 
     Cart getCartItems(Cart cart);
+    
+    List<Blog> getBlogs();
 }
