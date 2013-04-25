@@ -1,3 +1,12 @@
+create table BLOG (
+    BLOG_ID varchar(25) not null,
+    TITLE varchar(100)  not null,
+    CONTENT varchar(65535)  not null,
+    USER_ID varchar(25)not null,
+
+    constraint PK_BLOG primary key (BLOG_ID)
+);
+
 create table USER (
     USER_ID varchar(25) not null,
     PASSWORD varchar(25)  not null,
