@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="Blog">
+    <typeAlias alias="blog" type="com.alibaba.sample.petstore.dal.dataobject.Blog" />
+    
+    <!--
+      - ===============================================
+      - 查找blog List
+      - ===============================================
+     -->
+    <select id="getBlogList"><![CDATA[
+        select
+                Blog.*
+        from
+                Blog
+    ]]></select>
+    
+    <!--
+      - ===============================================
+      - 通过blogId查找blog
+      - ===============================================
+     -->
+    <select id="getBlogByBlogId" parameterClass="int"><![CDATA[
+        select
+                Blog.*
+        from
+                Blog
+        where
+                Blog.BLOG_ID = #id#
+    ]]></select>
+    <!--
+      - ===============================================
+      - 创建一个blog对象
+      - ===============================================
+     -->
+    <insert id="insertBlog" parameterClass="blog"><![CDATA[
+        insert into BLOG (
+                BLOG_ID,
+                TITLE,
+                CONTENT,
+                USER_ID
+        ) values (
+                #id#,
+                #title#,
+                #content#,
+                #userId#
+        )
+    ]]></insert>
+    <!--
+      - ===============================================
+      - 更新一个user对象
+      - ===============================================
+     -->
+    <update id="updateBlog" parameterClass="blog"><![CDATA[
+        update
+                BLOG
+        set
+                CONTENT = #content#
+        where
+                BLOG_ID = #id#
+    ]]></update>
+</sqlMap>
