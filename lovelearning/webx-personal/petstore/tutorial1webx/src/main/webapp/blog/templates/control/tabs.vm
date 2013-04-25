@@ -1,0 +1,10 @@
+#set($url = "$app1Link.setTarget('blog/list/GetBlogList.do')")
+<a href="$url">博客1</a>
+
+#set($url = "$app1Link.setTarget('ask/index.do')")
+<a href="$url">问答</a>
+
+#set($url = "$app1Link.setTarget('search/index.do')")
+<a href="$url">搜索</a>
+
+
