@@ -1,9 +1,12 @@
 package com.alibaba.webx.tutorial1.blog.module.screen.list;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.alibaba.citrus.turbine.Context;
 import com.alibaba.sample.petstore.biz.StoreManager;
+import com.alibaba.sample.petstore.dal.dataobject.Blog;
 
 /**
  * 展示blog列表 
@@ -15,15 +18,7 @@ public class Default {
 	private StoreManager storeManager;
 	
 	public void execute(Context context) {
-		storeManager.getBlogs();
-        context.put("list", new String[] {
-                "blog1",
-                "blog2",
-                "blog3",
-                "blog4",
-                "blog5",
-                "blog6",
-                "blog7"
-        });
+		List<Blog> list = storeManager.getBlogs();
+		context.put("list", list);
     }
 }

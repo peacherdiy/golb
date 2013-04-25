@@ -25,6 +25,12 @@
             <artifactId>tutorial1webx-biz</artifactId>
             <version>0.0.1</version>
         </dependency>
+        <!-- 数据对象 -->
+        <dependency>
+            <groupId>com.alibaba.citrus.sample</groupId>
+            <artifactId>tutorial1webx-dal</artifactId>
+            <version>1.0</version>
+        </dependency>
         
         <dependency>
             <groupId>com.alibaba.citrus</groupId>
