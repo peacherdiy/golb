@@ -2,4 +2,8 @@
 /lovelearning/tutorial1/target/
 /lovelearning/tutorial1webx/target/
 /lovelearning/MyComponent/activemq-data/
+/lovelearning/webx-personal/petstore/target/
+/lovelearning/webx-personal/petstore/tutorial1webx/target/
+/lovelearning/webx-personal/petstore/tutorial1webx-biz/target/
+/lovelearning/webx-personal/petstore/tutorial1webx-dal/target/
 *.class
