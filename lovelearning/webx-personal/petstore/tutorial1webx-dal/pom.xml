@@ -8,7 +8,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>tutorial1webx-dal-dal</artifactId>
+    <artifactId>tutorial1webx-dal</artifactId>
     <name>tutorial1webx-dal Data Access</name>
     <packaging>jar</packaging>
     <dependencies>
