@@ -39,6 +39,15 @@
 
     <!-- URI生成。 -->
     <beans:import resource="common/uris.xml" />
+    
+    
+    <!-- 模板所需要的数据。 
+    <beans:import resource="common/template-data.xml" />
+	-->
+    <!-- Dal/biz配置。 -->
+    <beans:import resource="classpath:petstore/dal/data-source.xml" />
+    <beans:import resource="classpath:petstore/dal/dao.xml" />
+    <beans:import resource="classpath:petstore/biz/manager.xml" />
 
     <!-- 综合设置。 -->
     <services:webx-configuration>
