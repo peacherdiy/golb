@@ -12,7 +12,7 @@ import com.alibaba.sample.petstore.dal.dataobject.Blog;
  * 展示blog列表 
  * @author hesheng
  */
-public class Default {
+public class GetBlogList {
 	
 	@Autowired
 	private StoreManager storeManager;
