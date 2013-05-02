@@ -11,7 +11,7 @@ import org.eclipse.ui.PlatformUI;
  */
 public class Application implements IApplication {
 
-	protected static final String PLUGIN_ID = "org.monkeyperson.message";
+	public static final String PLUGIN_ID = "org.monkeyperson.message";
 
 	/* (non-Javadoc)
 	 * @see org.eclipse.equinox.app.IApplication#start(org.eclipse.equinox.app.IApplicationContext)
