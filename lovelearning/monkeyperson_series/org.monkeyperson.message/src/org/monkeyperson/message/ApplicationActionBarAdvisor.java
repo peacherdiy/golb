@@ -3,6 +3,7 @@ package org.monkeyperson.message;
 import org.eclipse.jface.action.GroupMarker;
 import org.eclipse.jface.action.ICoolBarManager;
 import org.eclipse.jface.action.IMenuManager;
+import org.eclipse.jface.action.IStatusLineManager;
 import org.eclipse.jface.action.IToolBarManager;
 import org.eclipse.jface.action.MenuManager;
 import org.eclipse.jface.action.Separator;
@@ -65,10 +66,18 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 		IToolBarManager toolbar = new ToolBarManager(coolBar.getStyle());
 		coolBar.add(toolbar);
 		toolbar.add(addContactAction);
+		toolbar.add(new Separator());
+		toolbar.add(addContactAction);
 	}
 
 	protected void fillTrayItem(IMenuManager trayItem) {
 		trayItem.add(aboutAction);
 		trayItem.add(exitAction);
+	}
+	
+	@Override
+	protected void fillStatusLine(IStatusLineManager statusLine) {
+		// TODO Auto-generated method stub
+		super.fillStatusLine(statusLine);
 	}
 }

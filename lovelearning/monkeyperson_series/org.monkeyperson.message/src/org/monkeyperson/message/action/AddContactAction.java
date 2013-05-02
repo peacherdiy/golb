@@ -25,6 +25,7 @@ import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.actions.ActionFactory;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.monkeyperson.message.Application;
 import org.monkeyperson.message.IImageKeys;
 import org.monkeyperson.message.dialog.AddContactDialog;
 import org.monkeyperson.message.model.ContactsEntry;
@@ -49,7 +50,7 @@ public class AddContactAction extends Action implements ISelectionListener,
 		setText("&Add Contact...");
 		setToolTipText("Add a contact to your contacts list.");
 		setImageDescriptor(AbstractUIPlugin.imageDescriptorFromPlugin(
-				"org.eclipsercp.hyperbola", IImageKeys.ADD_CONTACT));
+				Application.PLUGIN_ID, IImageKeys.ADD_CONTACT));
 		window.getSelectionService().addSelectionListener(this);
 	}
 
