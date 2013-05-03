@@ -58,7 +58,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 		configurer.setShowCoolBar(true);
 		configurer.setShowStatusLine(true);
 		configurer.setShowMenuBar(true);// ÏÔÊ¾Ä¿Â¼²Ëµ¥
-		configurer.setTitle("monkeyperson message"); //$NON-NLS-1$
+		//configurer.setTitle("monkeyperson message"); //$NON-NLS-1$
 	}
 
 	/**
