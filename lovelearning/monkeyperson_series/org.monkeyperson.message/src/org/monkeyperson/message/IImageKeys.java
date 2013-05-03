@@ -28,4 +28,6 @@ public interface IImageKeys {
 	public static final String AWAY = "icons/away.gif";
 
 	public static final String ADD_CONTACT = "icons/add_contact.gif";
+
+	public static final String CHAT = "icons/chat.gif";
 }
