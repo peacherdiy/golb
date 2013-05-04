@@ -28,5 +28,39 @@
             name="Contacts">
       </view>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.monkeyperson.message.editor.ChatEditor"
+            default="false"
+            icon="icons/chat.gif"
+            id="org.monkeyperson.message.editor.chat"
+            name="Chat">
+      </editor>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.monkeyperson.message.application"
+            name="monkeyperson chat client">
+         <property
+               name="appName"
+               value="monkeyperson chat client">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/alt16.gif,icons/alt32.gif">
+         </property>
+         <property
+               name="aboutImage"
+               value="icons/about.gif">
+         </property>
+         <property
+               name="aboutText"
+               value="MonkeyPerson Chat Client (Workbench)&#x0A;Version: 1.0.0&#x0A;(c) Copyright MonkeyPerson 2013. &#x0A;All Rights Reserved.">
+         </property>
+      </product>
+   </extension>
 
 </plugin>
