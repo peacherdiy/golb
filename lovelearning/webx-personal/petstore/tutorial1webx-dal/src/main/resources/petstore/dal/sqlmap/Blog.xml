@@ -3,12 +3,24 @@
 <sqlMap namespace="Blog">
     <typeAlias alias="blog" type="com.alibaba.sample.petstore.dal.dataobject.Blog" />
     
+     <!--
+      - ===============================================
+      - blog resultMap
+      - ===============================================
+     -->
+    <resultMap id="blogResult" class="blog">
+        <result property="id" column="BLOG_ID" />
+        <result property="title" column="TITLE" />
+        <result property="content" column="CONTENT" />
+        <result property="userId" column="USER_ID" />
+    </resultMap>
+    
     <!--
       - ===============================================
       - 查找blog List
       - ===============================================
      -->
-    <select id="getBlogList"><![CDATA[
+    <select id="getBlogList" resultMap="blogResult"><![CDATA[
         select
                 Blog.*
         from
@@ -20,13 +32,13 @@
       - 通过blogId查找blog
       - ===============================================
      -->
-    <select id="getBlogByBlogId" parameterClass="int"><![CDATA[
+    <select id="getBlogByBlogId" parameterClass="int" resultMap="blogResult"><![CDATA[
         select
                 Blog.*
         from
                 Blog
         where
-                Blog.BLOG_ID = #id#
+                Blog.BLOG_ID = #blogId#
     ]]></select>
     <!--
       - ===============================================
