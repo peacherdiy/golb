@@ -18,7 +18,7 @@ public class IbatisBlogDao extends SqlMapClientDaoSupport implements BlogDao {
 
     @SuppressWarnings("unchecked")
     public List<Blog> getBlogList() {
-        return getSqlMapClientTemplate().queryForList("getBlogList", null);
+        return getSqlMapClientTemplate().queryForList("getBlogList");
     }
 
     public void insertBlog(Blog blog) {

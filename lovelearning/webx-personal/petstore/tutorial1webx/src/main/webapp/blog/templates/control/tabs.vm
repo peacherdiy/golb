@@ -1,4 +1,4 @@
-#set($url = "$app1Link.setTarget('blog/list/GetBlogList.do')")
+#set($url = "$app1Link.setTarget('blog/list/as_html.htm')")
 <a href="$url">博客1</a>
 
 #set($url = "$app1Link.setTarget('ask/index.do')")

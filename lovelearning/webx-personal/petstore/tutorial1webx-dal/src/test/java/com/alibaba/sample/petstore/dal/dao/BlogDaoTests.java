@@ -44,9 +44,9 @@ public class BlogDaoTests extends AbstractDataAccessTests {
     	saveBlog.setUserId("heshengId");
 		blogDao.insertBlog(saveBlog);
 		
-//        Integer blogId = 100;
-//		Blog blog = blogDao.getBlogById(blogId);
-//        System.out.println(blog.getTitle());
+        Integer blogId = 100;
+		Blog blog = blogDao.getBlogById(blogId);
+        System.out.println(blog.getTitle());
     }
     
     @Test

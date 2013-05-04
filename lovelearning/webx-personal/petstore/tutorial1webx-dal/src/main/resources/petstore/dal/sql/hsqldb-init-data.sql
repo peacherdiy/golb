@@ -1,6 +1,9 @@
 INSERT INTO user VALUES('j2ee','j2ee',null);
 INSERT INTO user VALUES('admin','admin','admin');
 
+INSERT INTO blog VALUES('1','j2ee','I am a j2ee programmer','j2ee');
+INSERT INTO blog VALUES('2','c#','I use c# developer my application','admin');
+
 INSERT INTO account VALUES('j2ee','yourname@yourdomain.com','ABC', 'XYX', 'OK', '901 San Antonio Road', 'MS UCUP02-206', 'Palo Alto', 'CA', '94303', 'US',  '555-555-5555', '1234567', 'Visa', '2005-12-15');
 INSERT INTO account VALUES('admin','yourname@yourdomain.com','ABC', 'XYX', 'OK', '901 San Antonio Road', 'MS UCUP02-206', 'Palo Alto', 'CA', '94303', 'US',  '555-555-5555', '1234567', 'Visa', '2005-12-15');
 

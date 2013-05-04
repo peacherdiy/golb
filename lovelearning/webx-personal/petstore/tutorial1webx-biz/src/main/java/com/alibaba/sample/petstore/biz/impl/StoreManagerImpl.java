@@ -68,19 +68,19 @@ public class StoreManagerImpl implements StoreManager, InitializingBean {
     private File uploadDir;
 
     public void afterPropertiesSet() {
-        try {
-            uploadDir = resourceLoader.getResource(UPLOAD_DIR).getFile();
-
-            if (!uploadDir.exists()) {
-                uploadDir.mkdirs();
-            }
-
-            if (!uploadDir.isDirectory()) {
-                throw new IOException("Could not create directory " + uploadDir.getAbsolutePath());
-            }
-        } catch (Exception e) {
-            throw new StoreManagerException("Could not get upload directory from ResourceLoader: " + UPLOAD_DIR);
-        }
+//        try {
+//            uploadDir = resourceLoader.getResource(UPLOAD_DIR).getFile();
+//
+//            if (!uploadDir.exists()) {
+//                uploadDir.mkdirs();
+//            }
+//
+//            if (!uploadDir.isDirectory()) {
+//                throw new IOException("Could not create directory " + uploadDir.getAbsolutePath());
+//            }
+//        } catch (Exception e) {
+//            throw new StoreManagerException("Could not get upload directory from ResourceLoader: " + UPLOAD_DIR);
+//        }
     }
 
     public List<Category> getAllCategories() {
