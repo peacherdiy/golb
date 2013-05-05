@@ -6,7 +6,7 @@ import com.alibaba.sample.petstore.dal.dataobject.Blog;
 
 public interface BlogDao {
 	
-	Blog getBlogById(Integer blogId);
+	Blog getBlogById(String blogId);
 
     List<Blog> getBlogList();
 

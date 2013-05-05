@@ -37,13 +37,13 @@ public class BlogDaoTests extends AbstractDataAccessTests {
 		
         assertNotNull(blog);
         
-        Blog getBlog = blogDao.getBlogById(100);
+        Blog getBlog = blogDao.getBlogById("100");
         System.out.println(getBlog);
     }
     
     @Test
     public void getBlogById() {
-		Blog blog = blogDao.getBlogById(2);
+		Blog blog = blogDao.getBlogById("2");
 		assertNotNull(blog);
         System.out.println(blog.getTitle());
     }

@@ -12,7 +12,7 @@ import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
  * @author monkeyperson
  */
 public class IbatisBlogDao extends SqlMapClientDaoSupport implements BlogDao {
-    public Blog getBlogById(Integer blogId) {
+    public Blog getBlogById(String blogId) {
         return (Blog) getSqlMapClientTemplate().queryForObject("getBlogByBlogId", blogId);
     }
 

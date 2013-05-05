@@ -21,6 +21,14 @@
         </turbine-uri>
 
         <turbine-content-uri id="app1Content" exposed="true" extends="app1Link" />
+        
+        
+        <!-- blog -->
+        <uris:turbine-uri id="blogModule" exposed="true" extends="server">
+            <componentPath>/blog</componentPath>
+        </uris:turbine-uri>
+        
+        <uris:turbine-content-uri id="blogContent" exposed="true" extends="blogModule" />
 
     </services:uris>
 

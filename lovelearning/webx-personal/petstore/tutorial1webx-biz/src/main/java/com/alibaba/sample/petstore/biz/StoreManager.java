@@ -40,4 +40,6 @@ public interface StoreManager {
     Cart getCartItems(Cart cart);
     
     List<Blog> getBlogs();
+    
+    Blog getBlogById(String blogId);
 }

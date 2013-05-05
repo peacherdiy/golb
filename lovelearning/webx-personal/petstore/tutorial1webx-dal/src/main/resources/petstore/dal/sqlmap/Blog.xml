@@ -32,7 +32,7 @@
       - 通过blogId查找blog
       - ===============================================
      -->
-    <select id="getBlogByBlogId" parameterClass="int" resultMap="blogResult"><![CDATA[
+    <select id="getBlogByBlogId" parameterClass="string" resultMap="blogResult"><![CDATA[
         select
                 Blog.*
         from

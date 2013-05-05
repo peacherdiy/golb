@@ -1,0 +1,5 @@
+<p>Welcome, $blog.title!</p>
+
+
+#set( $foo = "Velocity" )      ##给变量foo赋值为字符串Velocity
+Hello $foo World!       ##使用变量foo
