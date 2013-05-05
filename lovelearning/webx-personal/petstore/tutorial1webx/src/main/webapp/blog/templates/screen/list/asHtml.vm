@@ -1,6 +1,6 @@
-<h1>Product List blog not value</h1>
+<h1>博客列表</h1>
 <ul>
-#foreach($item in $items)
-	<td>$item.title</td>
+#foreach($item in $list)
+	<a href="">$item.title</a><br/>
 #end
 </ul>

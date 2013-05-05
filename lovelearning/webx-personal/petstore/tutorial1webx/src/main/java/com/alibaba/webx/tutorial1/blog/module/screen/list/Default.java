@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.alibaba.citrus.turbine.Context;
 import com.alibaba.sample.petstore.biz.StoreManager;
+import com.alibaba.sample.petstore.biz.UserManager;
 import com.alibaba.sample.petstore.dal.dataobject.Blog;
+import com.alibaba.sample.petstore.dal.dataobject.User;
 
 /**
  * 展示blog列表 
