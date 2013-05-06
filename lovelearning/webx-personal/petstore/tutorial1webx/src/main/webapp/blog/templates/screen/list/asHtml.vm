@@ -2,6 +2,6 @@
 <p>Welcome, $blog.title</p>
 <ul>
 #foreach($item in $list)
-	<a href="$blogModule.setTarget("itemList").addQueryData("blogId", $item.id)" title="$item.title">$item.title</a>
+	<a href="$blogModule.setTarget("list/itemList").addQueryData("blogId", $item.id)" title="$item.title">$item.title</a>
 #end
 </ul>
