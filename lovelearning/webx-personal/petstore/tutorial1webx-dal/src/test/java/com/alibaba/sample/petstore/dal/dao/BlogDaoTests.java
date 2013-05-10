@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import java.util.List;
 
 import com.alibaba.sample.petstore.dal.dataobject.Blog;
-import com.alibaba.sample.petstore.dal.dataobject.User;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

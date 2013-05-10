@@ -42,4 +42,8 @@ public interface StoreManager {
     List<Blog> getBlogs();
     
     Blog getBlogById(String blogId);
+    
+    public void insertBlog(Blog blog);
+
+    public void updateBlog(Blog blog);
 }

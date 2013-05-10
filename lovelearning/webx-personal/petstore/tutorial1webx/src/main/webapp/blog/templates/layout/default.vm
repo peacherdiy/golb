@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 #showHead ("My Simple Webx Application")
+<link href="$blogContent.getURI("css/note-common.css")" rel="stylesheet" type="text/css">
+</head>
 </head>
 
 <body #bodyAttributes ()>

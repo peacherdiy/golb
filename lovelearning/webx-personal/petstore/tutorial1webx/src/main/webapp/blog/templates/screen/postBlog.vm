@@ -1,0 +1,35 @@
+$page.setTitle("记日记")
+
+#macro (postNoteMessage $field)
+#if (!$field.valid) $field.message #end
+#end
+
+<form action="" method="post">
+	<input type="hidden" name="action" value="PostBlogAction"/>
+	#set ($group = $form.postNote.defaultInstance)
+		<dl>
+			<dt>标题</dt>
+			<dd>
+				<div>
+					<input type="text" name="$group.title.key" value="$!group.title.value"/>
+				</div>
+				<div class="errorMessage">
+				#postNoteMessage ($group.title)
+				</div>
+			</dd>
+			
+			<dt>内容</dt>
+			<dd>
+				<div>
+					<textarea rows="10" cols="50" name="$group.content.key"  value="$!group.content.value">
+					
+					</textarea>
+				</div>
+				<div class="errorMessage">
+				#postNoteMessage ($group.content)
+				</div>
+			</dd>
+		</dl>
+    	<input type="submit" name="event_submit_post_note" value="发表"/>
+	<p>
+</form>

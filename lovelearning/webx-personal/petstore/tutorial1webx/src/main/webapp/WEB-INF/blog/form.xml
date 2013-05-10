@@ -31,8 +31,13 @@
           - Simple form
           - ===============================================
          -->
-        <services:group name="register" extends="csrfCheck">
-            <services:field name="name" displayName="你的名字">
+        <services:group name="postNote" extends="csrfCheck">
+            <services:field name="title" displayName="日记标题">
+                <required-validator>
+                    <message>必须填写 ${displayName}</message>
+                </required-validator>
+            </services:field>
+            <services:field name="contnet" displayName="日记内容">
                 <required-validator>
                     <message>必须填写 ${displayName}</message>
                 </required-validator>

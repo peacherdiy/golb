@@ -210,4 +210,12 @@ public class StoreManagerImpl implements StoreManager, InitializingBean {
 	public Blog getBlogById(String blogId) {
 		return blogDao.getBlogById(blogId);
 	}
+	
+	public void insertBlog(Blog blog){
+		blogDao.insertBlog(blog);
+	}
+
+	public void updateBlog(Blog blog){
+		blogDao.updateBlog(blog);
+	}
 }

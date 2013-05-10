@@ -1,0 +1,5 @@
+.errorMessage {
+    color: #FF0000;
+    white-space: nowrap;
+    font-weight: bold;
+}

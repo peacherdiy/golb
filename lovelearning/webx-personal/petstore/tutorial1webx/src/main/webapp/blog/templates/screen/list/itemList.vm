@@ -1,7 +1,2 @@
-<p>Welcome, $blog.title!, why not no object value</p>
-
-
-#set( $foo = "Velocity" )      ##给变量foo赋值为字符串Velocity
-Hello $foo World!       ##使用变量foo
-<hr/>
+<h3>$blog.title</h3>
 $blog.content

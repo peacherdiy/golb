@@ -22,8 +22,5 @@ public class Default {
 	public void execute(Context context) {
 		List<Blog> list = storeManager.getBlogs();
 		context.put("list", list);
-		
-		Blog blog = storeManager.getBlogById("1");
-        context.put("blog", blog);
     }
 }
