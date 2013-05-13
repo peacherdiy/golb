@@ -30,6 +30,6 @@ $page.setTitle("记日记")
 				</div>
 			</dd>
 		</dl>
-    	<input type="submit" name="event_submit_post_note" value="发表"/>
+    	<input type="submit" name="event_submit_do_post_note" value="发表"/>
 	<p>
 </form>

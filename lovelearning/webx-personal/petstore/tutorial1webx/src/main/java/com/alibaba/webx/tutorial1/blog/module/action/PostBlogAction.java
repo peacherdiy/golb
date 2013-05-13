@@ -20,7 +20,7 @@ public class PostBlogAction {
     @Autowired
 	private StoreManager storeManager;
 
-    public void postNote(@FormGroup("postNote") Blog blog,
+    public void doPostNote(@FormGroup("postNote") Blog blog,
                            @FormField(name = "registerError", group = "postNote") CustomErrors err,
                            HttpSession session, Navigator nav) throws Exception {
     	storeManager.insertBlog(blog);
