@@ -5,6 +5,9 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.alibaba.citrus.service.form.CustomErrors;
+import com.alibaba.citrus.service.form.Form;
+import com.alibaba.citrus.service.form.FormService;
+import com.alibaba.citrus.service.form.Group;
 import com.alibaba.citrus.turbine.Navigator;
 import com.alibaba.citrus.turbine.dataresolver.FormField;
 import com.alibaba.citrus.turbine.dataresolver.FormGroup;
@@ -13,18 +16,28 @@ import com.alibaba.sample.petstore.dal.dataobject.Blog;
 
 /**
  * 发表日记
+ * 
  * @author monkeyperson
  */
 public class PostBlogAction {
-	
-    @Autowired
+
+	@Autowired
+	private FormService formService;
+
+	@Autowired
 	private StoreManager storeManager;
 
-    public void doPostNote(@FormGroup("postNote") Blog blog,
-                           @FormField(name = "registerError", group = "postNote") CustomErrors err,
-                           HttpSession session, Navigator nav) throws Exception {
-    	storeManager.insertBlog(blog);
-        // 跳转到发表博客页面
-        nav.redirectTo("blogPostBlogLink");
-    }
+	public void doPostNote(@FormGroup("postNote") Blog blog, Navigator nav)
+			throws Exception {
+		Form form = formService.getForm();
+		if (form.isValid()) {
+			Group group = form.getGroup("postNote");
+			Blog blog1 = new Blog();
+			group.setProperties(blog1);
+			storeManager.insertBlog(blog1);
+			// 跳转到发表博客页面
+			nav.redirectTo("blogPostBlogLink");
+		}
+
+	}
 }
