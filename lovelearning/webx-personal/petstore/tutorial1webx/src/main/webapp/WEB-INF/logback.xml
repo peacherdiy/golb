@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Logback Configuration.  -->
-<configuration debug="false">
+<configuration debug="true">
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <target>System.out</target>
         <encoding>${loggingCharset}</encoding>
@@ -31,7 +31,7 @@
         <level value="INFO" />
     </logger>
     <logger name="com.alibaba.webx.tutorial1">
-        <level value="INFO" />
+        <level value="debug" />
     </logger>
 
     <logger name="org.springframework">
@@ -39,7 +39,7 @@
     </logger>
 
     <logger name="com.alibaba.citrus.springext.support.context">
-        <level value="INFO" />
+        <level value="debug" />
     </logger>
 
     <root>
