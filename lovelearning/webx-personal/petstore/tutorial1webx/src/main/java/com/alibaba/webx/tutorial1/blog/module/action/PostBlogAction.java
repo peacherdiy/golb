@@ -13,6 +13,7 @@ import com.alibaba.citrus.turbine.dataresolver.FormField;
 import com.alibaba.citrus.turbine.dataresolver.FormGroup;
 import com.alibaba.sample.petstore.biz.StoreManager;
 import com.alibaba.sample.petstore.dal.dataobject.Blog;
+import com.alibaba.webx.tutorial1.app1.Visitor;
 
 /**
  * 发表日记
@@ -27,7 +28,7 @@ public class PostBlogAction {
 	@Autowired
 	private StoreManager storeManager;
 
-	public void doPostNote(@FormGroup("postNote") Blog blog, Navigator nav)
+	public void doPostNote(Navigator nav)
 			throws Exception {
 		Form form = formService.getForm();
 		if (form.isValid()) {
@@ -40,4 +41,9 @@ public class PostBlogAction {
 		}
 
 	}
+	
+	public void doRegister(@FormGroup("register") Visitor visitor, Navigator nav) {
+        String name = visitor.getName();
+        nav.redirectTo("app1Link").withTarget("form/welcome").withParameter("name", name);
+    }
 }
