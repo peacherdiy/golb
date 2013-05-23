@@ -1,5 +1,7 @@
 package com.alibaba.webx.tutorial1.blog.module.action;
 
+import java.util.Random;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,9 +34,14 @@ public class PostBlogAction {
 			throws Exception {
 		Form form = formService.getForm();
 		if (form.isValid()) {
+			Random rand = new Random();
+			int i = rand.nextInt(); //int范围类的随机数
+			i = rand.nextInt(10000); //生成0-100以内的随机数
+			
 			Group group = form.getGroup("postNote");
 			Blog blog1 = new Blog();
 			group.setProperties(blog1);
+			blog1.setId(i);
 			storeManager.insertBlog(blog1);
 			// 跳转到发表博客页面
 			nav.redirectTo("blogPostBlogLink");
