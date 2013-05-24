@@ -44,7 +44,7 @@ public class PostBlogAction {
 			blog1.setId(i);
 			storeManager.insertBlog(blog1);
 			// 跳转到发表博客页面
-			nav.redirectTo("blogPostBlogLink");
+			nav.redirectTo("app1Link").withTarget("/blog/list/as_html.htm");
 		}
 
 	}

@@ -18,7 +18,6 @@ $page.setTitle("记日记")
 				#postNoteMessage ($group.title)
 				</div>
 			</dd>
-			<!--
 			<dt>内容</dt>
 			<dd>
 				<div>
@@ -28,7 +27,7 @@ $page.setTitle("记日记")
 				#postNoteMessage ($group.content)
 				</div>
 			</dd>
-			-->
+			
 		</dl>
     	<input type="submit" name="event_submit_do_post_note" value="发表"/>
 	<p>

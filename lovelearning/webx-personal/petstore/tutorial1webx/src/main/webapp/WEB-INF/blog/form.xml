@@ -37,13 +37,11 @@
                     <message>必须填写 ${displayName}</message>
                 </required-validator>
             </services:field>
-            <!-- 
-            <services:field name="contnet" displayName="日记内容">
+            <services:field name="content" displayName="日记内容">
                 <required-validator>
                     <message>必须填写 ${displayName}</message>
                 </required-validator>
             </services:field>
-             -->
         </services:group>
         
         <!--
