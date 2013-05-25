@@ -4,6 +4,15 @@ $page.setTitle("记日记")
 #if (!$field.valid) $field.message #end
 #end
 
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    plugins: "code,advlist,anchor,compat3x,example,media,tabfocus,image,insertdatetime",
+    language : 'zh_CN'
+ });
+</script>
+
+
 <form action="" method="post">
 	<input type="hidden" name="action" value="PostBlogAction"/>
 	$csrfToken.hiddenField
@@ -28,26 +37,11 @@ $page.setTitle("记日记")
 				</div>
 			</dd>
 			
+			<dt></dt>
+			<dd>
+				<input type="submit" name="event_submit_do_post_note" value="发表"/>
+			</dd>
 		</dl>
-    	<input type="submit" name="event_submit_do_post_note" value="发表"/>
+    	
 	<p>
-</form>
-
-
-<form action="" method="post">
-	<input type="hidden" name="action" value="PostBlogAction"/>
-    $csrfToken.hiddenField
-    #set ($group = $form.register.defaultInstance)
-
-    <p>Hello, what's your name?</p>
-
-    #if (!$group.name.valid)
-        <p>$group.name.message</p>
-    #end
-
-    <p>
-        <input type="text" name="$group.name.key" value="$!group.name.value"/>
-        <input type="submit" name="event_submit_do_register"/>
-    </p>
-
 </form>

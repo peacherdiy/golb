@@ -3,6 +3,9 @@
 <head>
 #showHead ("My Simple Webx Application")
 <link href="$blogContent.getURI("css/note-common.css")" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="$blogContent.getURI("script/tinymce/js/tinymce/tinymce.min.js")"></script>
+
 </head>
 </head>
 
