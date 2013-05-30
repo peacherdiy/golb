@@ -1,2 +1,2 @@
 <h3>$blog.title</h3>
-$blog.content
+#noescape () $blog.content #end

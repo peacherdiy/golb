@@ -4,4 +4,4 @@ $blog.title
 #set( $foo = "Velocity" )      ##给变量foo赋值为字符串Velocity
 Hello $foo World!       ##使用变量foo
 <hr/>
-$blog.content
+#noescape () $blog.content #end
