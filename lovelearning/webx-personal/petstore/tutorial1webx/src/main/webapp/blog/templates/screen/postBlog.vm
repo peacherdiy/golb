@@ -4,15 +4,6 @@ $page.setTitle("记日记")
 #if (!$field.valid) $field.message #end
 #end
 
-<script type="text/javascript">
-tinymce.init({
-    selector: "textarea",
-    plugins: "code,advlist,anchor,compat3x,example,media,tabfocus,image,insertdatetime",
-    language : 'zh_CN'
- });
-</script>
-
-
 <form action="" method="post">
 	<input type="hidden" name="action" value="PostBlogAction"/>
 	$csrfToken.hiddenField
@@ -30,7 +21,7 @@ tinymce.init({
 			<dt>内容</dt>
 			<dd>
 				<div>
-					<textarea rows="10" cols="50" name="$group.content.key"  value="$!group.content.value"></textarea>
+					<textarea rows="12" cols="80" style="width: 80%" class="xheditor" name="$group.content.key"  value="$!group.content.value"></textarea>
 				</div>
 				<div class="errorMessage">
 				#postNoteMessage ($group.content)

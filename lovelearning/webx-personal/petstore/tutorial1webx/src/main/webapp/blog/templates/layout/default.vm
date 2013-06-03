@@ -10,13 +10,18 @@
 
 <script type="text/javascript" src="$blogContent.getURI("script/tinymce/js/tinymce/tinymce.min.js")"></script>
 
+<!-- add xheditor -->
+<script type="text/javascript" src="$blogContent.getURI("script/xheditor-1.2.1/jquery/jquery-1.4.4.src.js")"></script>
+<script type="text/javascript" src="$blogContent.getURI("script/xheditor-1.2.1/xheditor-1.2.1.min.js")"></script>
+<script type="text/javascript" src="$blogContent.getURI("script/xheditor-1.2.1/xheditor_lang/zh-cn.js")"></script>
 </head>
 </head>
 
 <body #bodyAttributes ()>
-<!-- Bootstrap js-->
+<!-- Bootstrap js
 <script src="$blogContent.getURI("common/templates/script/jquery-1.10.1.js")"></script>
 <script src="$blogContent.getURI("script/bootstrap/js/bootstrap.min.js")"></script>
+-->
 
 $screen_placeholder
 
