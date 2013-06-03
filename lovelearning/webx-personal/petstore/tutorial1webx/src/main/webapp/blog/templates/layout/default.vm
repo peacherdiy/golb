@@ -1,8 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 #showHead ("My Simple Webx Application")
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="$blogContent.getURI("css/note-common.css")" rel="stylesheet" type="text/css">
+
+<!-- Bootstrap css-->
+<link href="$blogContent.getURI("script/bootstrap/css/bootstrap.min.css")" rel="stylesheet" media="screen">
 
 <script type="text/javascript" src="$blogContent.getURI("script/tinymce/js/tinymce/tinymce.min.js")"></script>
 
@@ -10,6 +14,9 @@
 </head>
 
 <body #bodyAttributes ()>
+<!-- Bootstrap js-->
+<script src="$blogContent.getURI("common/templates/script/jquery-1.10.1.js")"></script>
+<script src="$blogContent.getURI("script/bootstrap/js/bootstrap.min.js")"></script>
 
 $screen_placeholder
 
